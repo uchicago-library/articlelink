@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ctx_obj_set>
+ <ctx_obj identifier="">
+  <ctx_obj_attributes>&lt;perldata&gt;
+ &lt;hash&gt;
+  &lt;item key="sfx.has_full_text"&gt;yes&lt;/item&gt;
+  &lt;item key="rft.eissn"&gt;1878-576X&lt;/item&gt;
+  &lt;item key="@req.institutes"&gt;
+   &lt;array&gt;
+    &lt;item key="0"&gt;Staff&lt;/item&gt;
+   &lt;/array&gt;
+  &lt;/item&gt;
+  &lt;item key="sfx.sourcename"&gt;EBSCO&lt;/item&gt;
+  &lt;item key="@rft.stitle"&gt;
+   &lt;array&gt;
+    &lt;item key="0"&gt;J FINANC MARK&lt;/item&gt;
+    &lt;item key="1"&gt;J. FINANC. MARK&lt;/item&gt;
+   &lt;/array&gt;
+  &lt;/item&gt;
+  &lt;item key="sfx.show_availability"&gt;1&lt;/item&gt;
+  &lt;item key="rft.jtitle"&gt;Journal of Financial Markets&lt;/item&gt;
+  &lt;item key="rft.object_id"&gt;954926250617&lt;/item&gt;
+  &lt;item key="rft.issue"&gt;1&lt;/item&gt;
+  &lt;item key="@sfx.category"&gt;
+   &lt;array&gt;
+    &lt;item key="0"&gt;Business, Economy and Management&lt;/item&gt;
+    &lt;item key="1"&gt;Business, Economy and Management&lt;/item&gt;
+    &lt;item key="2"&gt;Business, Economy and Management&lt;/item&gt;
+   &lt;/array&gt;
+  &lt;/item&gt;
+  &lt;item key="rft.language"&gt;eng&lt;/item&gt;
+  &lt;item key="rft.date"&gt;20100201&lt;/item&gt;
+  &lt;item key="rft.object_type"&gt;JOURNAL&lt;/item&gt;
+  &lt;item key="rft.epage"&gt;100&lt;/item&gt;
+  &lt;item key="@rfr_id"&gt;
+   &lt;array&gt;
+    &lt;item key="0"&gt;info:sid/EBSCO:EconLit with Full Text:1086454&lt;/item&gt;
+   &lt;/array&gt;
+  &lt;/item&gt;
+  &lt;item key="sfx.sid"&gt;EBSCO:EconLit with Full Text:1086454&lt;/item&gt;
+  &lt;item key="rft.doi"&gt;10.1016/j.finmar.2009.07.007&lt;/item&gt;
+  &lt;item key="rfr.rfr"&gt;EBSCO:EconLit with Full Text:1086454&lt;/item&gt;
+  &lt;item key="req.session_id"&gt;s5A5CFF8A-F16C-11F0-A494-9A0D38CD4086&lt;/item&gt;
+  &lt;item key="rft.title"&gt;Journal of Financial Markets&lt;/item&gt;
+  &lt;item key="sfx.request_id"&gt;54817999&lt;/item&gt;
+  &lt;item key="rft.issue_start"&gt;1&lt;/item&gt;
+  &lt;item key="rft.issn"&gt;1386-4181&lt;/item&gt;
+  &lt;item key="rft.pub"&gt;North-Holland&lt;/item&gt;
+  &lt;item key="@rfe_id"&gt;
+   &lt;array&gt;
+   &lt;/array&gt;
+  &lt;/item&gt;
+  &lt;item key="rft.place"&gt;NETHERLANDS&lt;/item&gt;
+  &lt;item key="rft.volume"&gt;13&lt;/item&gt;
+  &lt;item key="rft.day"&gt;1&lt;/item&gt;
+  &lt;item key="sfx.ignore_char_set"&gt;1&lt;/item&gt;
+  &lt;item key="rft.spage"&gt;77&lt;/item&gt;
+  &lt;item key="rft.lccn"&gt;  2003233176&lt;/item&gt;
+  &lt;item key="_stash"&gt;
+   &lt;hash&gt;
+    &lt;item key="@rft_id"&gt;
+     &lt;array&gt;
+      &lt;item key="0"&gt;info:doi/10.1016/j.finmar.2009.07.007&lt;/item&gt;
+     &lt;/array&gt;
+    &lt;/item&gt;
+    &lt;item key="@rfr_id"&gt;
+     &lt;array&gt;
+      &lt;item key="0"&gt;info:sid/EBSCO:EconLit with Full Text:1086454&lt;/item&gt;
+     &lt;/array&gt;
+    &lt;/item&gt;
+   &lt;/hash&gt;
+  &lt;/item&gt;
+  &lt;item key="existing_ts_ids"&gt;
+   &lt;array&gt;
+    &lt;item key="0"&gt;10330000000000033&lt;/item&gt;
+    &lt;item key="1"&gt;111000147718001&lt;/item&gt;
+    &lt;item key="2"&gt;10330000000000034&lt;/item&gt;
+    &lt;item key="3"&gt;10330000000000013&lt;/item&gt;
+    &lt;item key="4"&gt;1000000000000009&lt;/item&gt;
+    &lt;item key="5"&gt;110990803709001&lt;/item&gt;
+    &lt;item key="6"&gt;10330000000000051&lt;/item&gt;
+    &lt;item key="7"&gt;10330000000000036&lt;/item&gt;
+    &lt;item key="8"&gt;111069881052001&lt;/item&gt;
+    &lt;item key="9"&gt;3840000000000008&lt;/item&gt;
+   &lt;/array&gt;
+  &lt;/item&gt;
+  &lt;item key="rft.month"&gt;2&lt;/item&gt;
+  &lt;item key="@sfx.subcategory"&gt;
+   &lt;array&gt;
+    &lt;item key="0"&gt;Finance&lt;/item&gt;
+    &lt;item key="1"&gt;Insurance and Investment&lt;/item&gt;
+    &lt;item key="2"&gt;Stocks and Shares&lt;/item&gt;
+   &lt;/array&gt;
+  &lt;/item&gt;
+  &lt;item key="rft.pages"&gt;77-100&lt;/item&gt;
+  &lt;item key="sfx.openurl"&gt;https://sfx.lib.uchicago.edu/sfx_local?sfx.response_type=multi_obj_detailed_xml&amp;amp;ID=doi%3A10.1016%2Fj.finmar.2009.07.007&amp;amp;genre=article&amp;amp;atitle=Do%20Relative%20Leverage%20and%20Relative%20Distress%20Really%20Explain%20Size%20and%20Book-to-Market%20Anomalies%3F&amp;amp;title=Journal%20of%20Financial%20Markets&amp;amp;issn=13864181&amp;amp;volume=13&amp;amp;issue=1&amp;amp;date=20100201&amp;amp;au=Chou%2C%20Pin-Huang&amp;amp;spage=77&amp;amp;pages=77-100&amp;amp;sid=EBSCO%3AEconLit%20with%20Full%20Text%3A1086454&lt;/item&gt;
+  &lt;item key="rft.year"&gt;2010&lt;/item&gt;
+  &lt;item key="rft.genre"&gt;article&lt;/item&gt;
+  &lt;item key="rft.volume_start"&gt;13&lt;/item&gt;
+  &lt;item key="sfx.response_type"&gt;multi_obj_detailed_xml&lt;/item&gt;
+  &lt;item key="rft.atitle"&gt;Do Relative Leverage and Relative Distress Really Explain Size and Book-to-Market Anomalies?&lt;/item&gt;
+  &lt;item key="@rft_id"&gt;
+   &lt;array&gt;
+    &lt;item key="0"&gt;info:doi/10.1016/j.finmar.2009.07.007&lt;/item&gt;
+   &lt;/array&gt;
+  &lt;/item&gt;
+ &lt;/hash&gt;
+&lt;/perldata&gt;
+</ctx_obj_attributes>
+  <ctx_obj_targets>
+   <target>
+    <target_name>ELSEVIER_SCIENCEDIRECT_AUTOLOAD_JOURNALS</target_name>
+    <target_public_name>Elsevier ScienceDirect Journals</target_public_name>
+    <object_portfolio_id>2560000001604657</object_portfolio_id>
+    <target_id>3840000000000010</target_id>
+    <interface_id>110983570089325</interface_id>
+    <interface_name>ELSEVIER_SD</interface_name>
+    <target_service_id>3840000000000008</target_service_id>
+    <service_type>getFullTxt</service_type>
+    <parser>ELSEVIER::SCIENCE_DIRECT</parser>
+    <parse_param>host=https://www.sciencedirect.com/science/ &amp; prefsite = sd &amp; shib= &amp; u_shib= &amp;uis=13864181</parse_param>
+    <proxy>yes</proxy>
+    <crossref>yes</crossref>
+    <timediff_warning></timediff_warning>
+    <note></note>
+    <authentication></authentication>
+    <char_set>utf8</char_set>
+    <displayer></displayer>
+    <target_url>https://proxy-redirector.lib.uchicago.edu/login?url=https%3A%2F%2Fdoi.org%2F10.1016%2Fj.finmar.2009.07.007</target_url>
+    <is_related>no</is_related>
+    <coverage>
+     <coverage_text>
+      <threshold_text>
+       <coverage_statement>Available from 1998/04/30 volume: 1 issue: 1</coverage_statement>
+      </threshold_text>
+      <embargo_text></embargo_text>
+     </coverage_text>
+     <from>
+      <year>1998</year>
+      <month>04</month>
+      <day>30</day>
+      <volume>1</volume>
+      <issue>1</issue>
+     </from>
+     <embargo></embargo>
+    </coverage>
+   </target>
+   <target>
+    <target_name>ULRICHSWEB_COM</target_name>
+    <target_public_name>ulrichsweb.com</target_public_name>
+    <object_portfolio_id></object_portfolio_id>
+    <target_id>110990803709000</target_id>
+    <interface_id>110990803709000</interface_id>
+    <interface_name>ULRICHSWEB_COM</interface_name>
+    <target_service_id>110990803709001</target_service_id>
+    <service_type>getCitedJournal</service_type>
+    <parser>ULRICH::ULRICH</parser>
+    <parse_param>url=http://ulrichsweb.serialssolutions.com</parse_param>
+    <proxy>yes</proxy>
+    <crossref>no</crossref>
+    <timediff_warning></timediff_warning>
+    <note></note>
+    <authentication></authentication>
+    <char_set>iso-8859-1</char_set>
+    <displayer></displayer>
+    <target_url>https://proxy-redirector.lib.uchicago.edu/login?url=http%3A%2F%2Fulrichsweb.serialssolutions.com%2Fapi%2Fopenurl%3Fissn%3D1386-4181</target_url>
+    <is_related>no</is_related>
+    <coverage>
+     <coverage_text>
+      <threshold_text></threshold_text>
+      <embargo_text></embargo_text>
+     </coverage_text>
+     <embargo></embargo>
+    </coverage>
+   </target>
+   <target>
+    <target_name>LOCAL_CATALOGUE_VUFIND_LCL</target_name>
+    <target_public_name>The University of Chicago Library Catalog</target_public_name>
+    <object_portfolio_id></object_portfolio_id>
+    <target_id>10330000000000047</target_id>
+    <interface_id>10330000000000047</interface_id>
+    <interface_name>LOCAL_CATALOGUE_VUFIND</interface_name>
+    <target_service_id>10330000000000051</target_service_id>
+    <service_type>getHolding</service_type>
+    <parser>VUFIND::vufind</parser>
+    <parse_param>url=http://catalog.lib.uchicago.edu/vufind</parse_param>
+    <proxy>no</proxy>
+    <crossref>no</crossref>
+    <timediff_warning></timediff_warning>
+    <note></note>
+    <authentication></authentication>
+    <char_set>utf8</char_set>
+    <displayer></displayer>
+    <target_url>http://catalog.lib.uchicago.edu/vufind/Search/Results?type=StandardNumbers&amp;lookfor=1386-4181&amp;submit=Find</target_url>
+    <is_related>no</is_related>
+    <coverage>
+     <coverage_text>
+      <threshold_text></threshold_text>
+      <embargo_text></embargo_text>
+     </coverage_text>
+     <embargo></embargo>
+    </coverage>
+   </target>
+   <target>
+    <target_name>DOCDEL_Scan and Deliver_LCL</target_name>
+    <target_public_name>Scan and Deliver</target_public_name>
+    <object_portfolio_id></object_portfolio_id>
+    <target_id>10330000000000030</target_id>
+    <interface_id>10330000000000030</interface_id>
+    <interface_name>DOCDEL_Scan and Deliver</interface_name>
+    <target_service_id>10330000000000034</target_service_id>
+    <service_type>getHolding</service_type>
+    <parser>ILLiad::DDL4</parser>
+    <parse_param>url=https://requests.lib.uchicago.edu/illiad/illiad.dll/OpenURL</parse_param>
+    <proxy>yes</proxy>
+    <crossref>yes</crossref>
+    <timediff_warning></timediff_warning>
+    <note>Get UChicago-owned articles and book chapters scanned and posted electronically.</note>
+    <authentication></authentication>
+    <char_set>utf8</char_set>
+    <displayer></displayer>
+    <target_url>https://proxy-redirector.lib.uchicago.edu/login?url=https%3A%2F%2Frequests.lib.uchicago.edu%2Filliad%2Filliad.dll%2FOpenURL%3Fspage%3D77%26atitle%3DDo%2520Relative%2520Leverage%2520and%2520Relative%2520Distress%2520Really%2520Explain%2520Size%2520and%2520Book-to-Market%2520Anomalies%253F%26date%3D2010-02%26epage%3D100%26volume%3D13%26issue%3D1%26genre%3Ddocdel%26issn%3D1386-4181%26sid%3DEBSCO%253AEconLit%2520with%2520Full%2520Text%253A1086454%2520%28via%2520SFX%29%26title%3DJournal%2520of%2520Financial%2520Markets</target_url>
+    <is_related>no</is_related>
+    <coverage>
+     <coverage_text>
+      <threshold_text></threshold_text>
+      <embargo_text></embargo_text>
+     </coverage_text>
+     <embargo></embargo>
+    </coverage>
+   </target>
+   <target>
+    <target_name>LOCAL_CATALOG_BORROWDIRECT_LCL</target_name>
+    <target_public_name>Search Borrow Direct Catalog</target_public_name>
+    <object_portfolio_id></object_portfolio_id>
+    <target_id>10330000000000032</target_id>
+    <interface_id>10330000000000032</interface_id>
+    <interface_name>LOCAL_CATALOG_BORROWDIRECT</interface_name>
+    <target_service_id>10330000000000036</target_service_id>
+    <service_type>getDocumentDelivery</service_type>
+    <parser>BORROWDIRECT::BORROWDIRECT</parser>
+    <parse_param>url=https://www.lib.uchicago.edu/e/we-includes/search_main/index_t_catalogs_borrowdirect.php</parse_param>
+    <proxy>yes</proxy>
+    <crossref>no</crossref>
+    <timediff_warning></timediff_warning>
+    <note>Get it from Ivy League and MIT libraries in approximately 4-5 days.</note>
+    <authentication></authentication>
+    <char_set>utf8</char_set>
+    <displayer></displayer>
+    <target_url></target_url>
+    <is_related>no</is_related>
+    <coverage>
+     <coverage_text>
+      <threshold_text></threshold_text>
+      <embargo_text></embargo_text>
+     </coverage_text>
+     <embargo></embargo>
+    </coverage>
+   </target>
+   <target>
+    <target_name>LOCAL_CATALOG_UBORROW_LCL</target_name>
+    <target_public_name>Search Uborrow Catalog</target_public_name>
+    <object_portfolio_id></object_portfolio_id>
+    <target_id>10330000000000029</target_id>
+    <interface_id>10330000000000029</interface_id>
+    <interface_name>LOCAL_CATALOG_UBORROW</interface_name>
+    <target_service_id>10330000000000033</target_service_id>
+    <service_type>getDocumentDelivery</service_type>
+    <parser>UBORROW::UBORROW</parser>
+    <parse_param>url=http://uborrow.relaisd2d.com/service-proxy</parse_param>
+    <proxy>yes</proxy>
+    <crossref>no</crossref>
+    <timediff_warning></timediff_warning>
+    <note>Get it from Big Ten university libraries in approximately 4-5 days.</note>
+    <authentication></authentication>
+    <char_set>utf8</char_set>
+    <displayer></displayer>
+    <target_url></target_url>
+    <is_related>no</is_related>
+    <coverage>
+     <coverage_text>
+      <threshold_text></threshold_text>
+      <embargo_text></embargo_text>
+     </coverage_text>
+     <embargo></embargo>
+    </coverage>
+   </target>
+   <target>
+    <target_name>DOCDEL_ILLIAD_PC_LOCAL_LCL</target_name>
+    <target_public_name>Interlibrary Loan</target_public_name>
+    <object_portfolio_id></object_portfolio_id>
+    <target_id>10330000000000012</target_id>
+    <interface_id>10330000000000012</interface_id>
+    <interface_name>DOCDEL_ILLIAD_PC_LOCAL</interface_name>
+    <target_service_id>10330000000000013</target_service_id>
+    <service_type>getDocumentDelivery</service_type>
+    <parser>ILLiad::DDL3</parser>
+    <parse_param>url=https://requests.lib.uchicago.edu/illiad/illiad.dll/OpenURL</parse_param>
+    <proxy>yes</proxy>
+    <crossref>yes</crossref>
+    <timediff_warning></timediff_warning>
+    <note>Get it from other libraries. Delivery time varies.</note>
+    <authentication></authentication>
+    <char_set>utf8</char_set>
+    <displayer></displayer>
+    <target_url>https://proxy-redirector.lib.uchicago.edu/login?url=https%3A%2F%2Frequests.lib.uchicago.edu%2Filliad%2Filliad.dll%2FOpenURL%3Fissue%3D1%26genre%3Darticle%26epage%3D100%26volume%3D13%26spage%3D77%26atitle%3DDo%2520Relative%2520Leverage%2520and%2520Relative%2520Distress%2520Really%2520Explain%2520Size%2520and%2520Book-to-Market%2520Anomalies%253F%26date%3D2010-02%26sid%3DEBSCO%253AEconLit%2520with%2520Full%2520Text%253A1086454%2520%28via%2520SFX%29%26title%3DJournal%2520of%2520Financial%2520Markets%26issn%3D1386-4181</target_url>
+    <is_related>no</is_related>
+    <coverage>
+     <coverage_text>
+      <threshold_text></threshold_text>
+      <embargo_text></embargo_text>
+     </coverage_text>
+     <embargo></embargo>
+    </coverage>
+   </target>
+   <target>
+    <target_name>LOCAL_FEEDBACK</target_name>
+    <target_public_name>Contact Us</target_public_name>
+    <object_portfolio_id></object_portfolio_id>
+    <target_id>111000147718000</target_id>
+    <interface_id>111000147718000</interface_id>
+    <interface_name>LOCAL_FEEDBACK</interface_name>
+    <target_service_id>111000147718001</target_service_id>
+    <service_type>getWebService</service_type>
+    <parser>FEEDBACK::FEEDBACK</parser>
+    <parse_param>url=http://sfx.lib.uchicago.edu:3002/sfx_local/cgi/public/feedback.cgi &amp;
+email=sfx@lib.uchicago.edu
+</parse_param>
+    <proxy>yes</proxy>
+    <crossref>no</crossref>
+    <timediff_warning></timediff_warning>
+    <note></note>
+    <authentication></authentication>
+    <char_set>UTF8</char_set>
+    <displayer></displayer>
+    <target_url>https://proxy-redirector.lib.uchicago.edu/login?url=http%3A%2F%2Fsfx.lib.uchicago.edu%3A3002%2Fsfx_local%2Fcgi%2Fpublic%2Ffeedback.cgi%3Fyear%3D2010%26volume%3D13%26genre%3Darticle%26issue%3D1%26publisher%3DNorth-Holland%26journal%3DJournal%2Bof%2BFinancial%2BMarkets%26source%3DEBSCO%2B%28Via%2BSFX%29%26month%3D2%26sid%3DEBSCO%253AEconLit%2Bwith%2BFull%2BText%253A1086454%26em%3Dsfx%2540lib.uchicago.edu%26openurl%3Dhttps%253A%252F%252Fsfx.lib.uchicago.edu%252Fsfx_local%253Fsfx.response_type%253Dmulti_obj_detailed_xml%2526ID%253Ddoi%25253A10.1016%25252Fj.finmar.2009.07.007%2526genre%253Darticle%2526atitle%253DDo%252520Relative%252520Leverage%252520and%252520Relative%252520Distress%252520Really%252520Explain%252520Size%252520and%252520Book-to-Market%252520Anomalies%25253F%2526title%253DJournal%252520of%252520Financial%252520Markets%2526issn%253D13864181%2526volume%253D13%2526issue%253D1%2526date%253D20100201%2526au%253DChou%25252C%252520Pin-Huang%2526spage%253D77%2526pages%253D77-100%2526sid%253DEBSCO%25253AEconLit%252520with%252520Full%252520Text%25253A1086454%26pages%3D77-100%26issn%3D1386-4181%26publiplace%3DNETHERLANDS%26articlet%3DDo%2BRelative%2BLeverage%2Band%2BRelative%2BDistress%2BReally%2BExplain%2BSize%2Band%2BBook-to-Market%2BAnomalies%253F%26day%3D1</target_url>
+    <is_related>no</is_related>
+    <coverage>
+     <coverage_text>
+      <threshold_text></threshold_text>
+      <embargo_text></embargo_text>
+     </coverage_text>
+     <embargo></embargo>
+    </coverage>
+   </target>
+   <target>
+    <target_name>COPYRIGHT_CLEARANCE_CENTER</target_name>
+    <target_public_name>Copyright Clearance Center</target_public_name>
+    <object_portfolio_id></object_portfolio_id>
+    <target_id>111069881052000</target_id>
+    <interface_id>111069881052000</interface_id>
+    <interface_name>COPYRIGHT_CLEARANCE_CENTER</interface_name>
+    <target_service_id>111069881052001</target_service_id>
+    <service_type>getWebService</service_type>
+    <parser>CCC::CCC</parser>
+    <parse_param>username=crerar&amp;
+password=jrl002&amp;
+type=TRS&amp;
+url=https://www.copyright.com/CCCDirect</parse_param>
+    <proxy>no</proxy>
+    <crossref>no</crossref>
+    <timediff_warning></timediff_warning>
+    <note></note>
+    <authentication></authentication>
+    <char_set></char_set>
+    <displayer></displayer>
+    <target_url></target_url>
+    <is_related>no</is_related>
+    <coverage>
+     <coverage_text>
+      <threshold_text></threshold_text>
+      <embargo_text></embargo_text>
+     </coverage_text>
+     <embargo></embargo>
+    </coverage>
+   </target>
+   <target>
+    <target_name>GOOGLE_SCHOLAR_FREE</target_name>
+    <target_public_name>Google Scholar</target_public_name>
+    <object_portfolio_id></object_portfolio_id>
+    <target_id>1000000000000009</target_id>
+    <interface_id>1000000000001761</interface_id>
+    <interface_name>GOOGLE</interface_name>
+    <target_service_id>1000000000000009</target_service_id>
+    <service_type>getWebSearch</service_type>
+    <parser>GoogleScholar::Search</parser>
+    <parse_param></parse_param>
+    <proxy>yes</proxy>
+    <crossref>no</crossref>
+    <timediff_warning></timediff_warning>
+    <note></note>
+    <authentication></authentication>
+    <char_set>iso-8859-1</char_set>
+    <displayer>GoogleScholar::Search</displayer>
+    <target_url></target_url>
+    <is_related>no</is_related>
+    <coverage>
+     <coverage_text>
+      <threshold_text></threshold_text>
+      <embargo_text></embargo_text>
+     </coverage_text>
+     <embargo></embargo>
+    </coverage>
+   </target>
+  </ctx_obj_targets>
+ </ctx_obj>
+</ctx_obj_set>

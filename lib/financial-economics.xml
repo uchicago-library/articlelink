@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ctx_obj_set>
+ <ctx_obj identifier="">
+  <ctx_obj_attributes>&lt;perldata&gt;
+ &lt;hash&gt;
+  &lt;item key="@rfr_id"&gt;
+   &lt;array&gt;
+    &lt;item key="0"&gt;info:sid/ProQ:ProQ:pq1busgeneral&lt;/item&gt;
+   &lt;/array&gt;
+  &lt;/item&gt;
+  &lt;item key="sfx.sid"&gt;ProQ:ProQ:pq1busgeneral&lt;/item&gt;
+  &lt;item key="rft.doi"&gt;&lt;/item&gt;
+  &lt;item key="@rft.au"&gt;
+   &lt;array&gt;
+    &lt;item key="0"&gt;Cornell, Bradford&lt;/item&gt;
+   &lt;/array&gt;
+  &lt;/item&gt;
+  &lt;item key="@rft.auinitm"&gt;
+   &lt;array&gt;
+    &lt;item key="0"&gt;&lt;/item&gt;
+   &lt;/array&gt;
+  &lt;/item&gt;
+  &lt;item key="rfr.rfr"&gt;ProQ:ProQ:pq1busgeneral&lt;/item&gt;
+  &lt;item key="@rft.aufirst"&gt;
+   &lt;array&gt;
+    &lt;item key="0"&gt;Bradford&lt;/item&gt;
+   &lt;/array&gt;
+  &lt;/item&gt;
+  &lt;item key="req.session_id"&gt;s9BDA550C-F16C-11F0-B870-9A0D38CD4086&lt;/item&gt;
+  &lt;item key="rft.title"&gt;Journal of Financial Economics&lt;/item&gt;
+  &lt;item key="rft_val_fmt"&gt;journal&lt;/item&gt;
+  &lt;item key="sfx.request_id"&gt;54818015&lt;/item&gt;
+  &lt;item key="@rft.auinit1"&gt;
+   &lt;array&gt;
+    &lt;item key="0"&gt;B&lt;/item&gt;
+   &lt;/array&gt;
+  &lt;/item&gt;
+  &lt;item key="sfx.has_full_text"&gt;yes&lt;/item&gt;
+  &lt;item key="rft.eissn"&gt;1879-2774&lt;/item&gt;
+  &lt;item key="@req.institutes"&gt;
+   &lt;array&gt;
+    &lt;item key="0"&gt;Staff&lt;/item&gt;
+   &lt;/array&gt;
+  &lt;/item&gt;
+  &lt;item key="sfx.sourcename"&gt;PROQUEST&lt;/item&gt;
+  &lt;item key="rft.eric"&gt;00115427&lt;/item&gt;
+  &lt;item key="rft.jtitle"&gt;Journal of Financial Economics&lt;/item&gt;
+  &lt;item key="@rft.stitle"&gt;
+   &lt;array&gt;
+    &lt;item key="0"&gt;J FINANC ECON&lt;/item&gt;
+    &lt;item key="1"&gt;J. FINAN. ECON&lt;/item&gt;
+    &lt;item key="2"&gt;J. FINANC. ECON&lt;/item&gt;
+   &lt;/array&gt;
+  &lt;/item&gt;
+  &lt;item key="sfx.show_availability"&gt;1&lt;/item&gt;
+  &lt;item key="rft.object_id"&gt;954921387914&lt;/item&gt;
+  &lt;item key="@rft.auinit"&gt;
+   &lt;array&gt;
+    &lt;item key="0"&gt;B&lt;/item&gt;
+   &lt;/array&gt;
+  &lt;/item&gt;
+  &lt;item key="rft.issue"&gt;4&lt;/item&gt;
+  &lt;item key="url_ver"&gt;Z39.88-2004&lt;/item&gt;
+  &lt;item key="rft.date"&gt;1979-12-01&lt;/item&gt;
+  &lt;item key="rft.language"&gt;eng&lt;/item&gt;
+  &lt;item key="@sfx.category"&gt;
+   &lt;array&gt;
+    &lt;item key="0"&gt;Business, Economy and Management&lt;/item&gt;
+    &lt;item key="1"&gt;Business, Economy and Management&lt;/item&gt;
+    &lt;item key="2"&gt;Business, Economy and Management&lt;/item&gt;
+   &lt;/array&gt;
+  &lt;/item&gt;
+  &lt;item key="rft.object_type"&gt;JOURNAL&lt;/item&gt;
+  &lt;item key="ctx_ver"&gt;Z39.88-2004&lt;/item&gt;
+  &lt;item key="existing_ts_ids"&gt;
+   &lt;array&gt;
+    &lt;item key="0"&gt;111069881052001&lt;/item&gt;
+    &lt;item key="1"&gt;10330000000000036&lt;/item&gt;
+    &lt;item key="2"&gt;10330000000000051&lt;/item&gt;
+    &lt;item key="3"&gt;110990803709001&lt;/item&gt;
+    &lt;item key="4"&gt;1000000000000009&lt;/item&gt;
+    &lt;item key="5"&gt;10330000000000013&lt;/item&gt;
+    &lt;item key="6"&gt;10330000000000034&lt;/item&gt;
+    &lt;item key="7"&gt;111000147718001&lt;/item&gt;
+    &lt;item key="8"&gt;10330000000000033&lt;/item&gt;
+    &lt;item key="9"&gt;111060797464001&lt;/item&gt;
+    &lt;item key="10"&gt;3840000000000008&lt;/item&gt;
+   &lt;/array&gt;
+  &lt;/item&gt;
+  &lt;item key="rft.month"&gt;12&lt;/item&gt;
+  &lt;item key="@sfx.subcategory"&gt;
+   &lt;array&gt;
+    &lt;item key="0"&gt;Economics&lt;/item&gt;
+    &lt;item key="1"&gt;Finance&lt;/item&gt;
+    &lt;item key="2"&gt;General and Others&lt;/item&gt;
+   &lt;/array&gt;
+  &lt;/item&gt;
+  &lt;item key="sfx.openurl"&gt;https://sfx.lib.uchicago.edu/sfx_local?sfx.response_type=multi_obj_detailed_xml&amp;amp;url_ver=Z39.88-2004&amp;amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;amp;genre=article&amp;amp;sid=ProQ%3AProQ%3Apq1busgeneral&amp;amp;atitle=Asymmetric%20Information%20and%20Portfolio%20Performance%20Measurement&amp;amp;title=Journal%20of%20Financial%20Economics&amp;amp;issn=0304405X&amp;amp;date=1979-12-01&amp;amp;volume=7&amp;amp;issue=4&amp;amp;spage=381&amp;amp;au=Cornell%2C%20Bradford&amp;amp;isbn=&amp;amp;jtitle=Journal%20of%20Financial%20Economics&amp;amp;btitle=&amp;amp;rft_id=info%3Aeric%2F00115427&amp;amp;rft_id=info%3Adoi%2F&lt;/item&gt;
+  &lt;item key="rft.year"&gt;1979&lt;/item&gt;
+  &lt;item key="rft.genre"&gt;article&lt;/item&gt;
+  &lt;item key="sfx.response_type"&gt;multi_obj_detailed_xml&lt;/item&gt;
+  &lt;item key="rft.volume_start"&gt;7&lt;/item&gt;
+  &lt;item key="rft.atitle"&gt;Asymmetric Information and Portfolio Performance Measurement&lt;/item&gt;
+  &lt;item key="@rft_id"&gt;
+   &lt;array&gt;
+    &lt;item key="0"&gt;info:eric/00115427&lt;/item&gt;
+    &lt;item key="1"&gt;info:doi/&lt;/item&gt;
+   &lt;/array&gt;
+  &lt;/item&gt;
+  &lt;item key="rft.issue_start"&gt;4&lt;/item&gt;
+  &lt;item key="rft.issn"&gt;0304-405X&lt;/item&gt;
+  &lt;item key="rft.pub"&gt;North-Holland&lt;/item&gt;
+  &lt;item key="@rfe_id"&gt;
+   &lt;array&gt;
+   &lt;/array&gt;
+  &lt;/item&gt;
+  &lt;item key="rft.place"&gt;SWITZERLAND&lt;/item&gt;
+  &lt;item key="rft.volume"&gt;7&lt;/item&gt;
+  &lt;item key="sfx.ignore_char_set"&gt;1&lt;/item&gt;
+  &lt;item key="rft.day"&gt;1&lt;/item&gt;
+  &lt;item key="rft.spage"&gt;381&lt;/item&gt;
+  &lt;item key="rft.lccn"&gt;   84649771 &lt;/item&gt;
+  &lt;item key="_stash"&gt;
+   &lt;hash&gt;
+    &lt;item key="@rft_id"&gt;
+     &lt;array&gt;
+      &lt;item key="0"&gt;info:eric/00115427&lt;/item&gt;
+      &lt;item key="1"&gt;info:doi/&lt;/item&gt;
+     &lt;/array&gt;
+    &lt;/item&gt;
+    &lt;item key="@rfr_id"&gt;
+     &lt;array&gt;
+      &lt;item key="0"&gt;info:sid/ProQ:ProQ:pq1busgeneral&lt;/item&gt;
+     &lt;/array&gt;
+    &lt;/item&gt;
+   &lt;/hash&gt;
+  &lt;/item&gt;
+  &lt;item key="@rft.aulast"&gt;
+   &lt;array&gt;
+    &lt;item key="0"&gt;Cornell&lt;/item&gt;
+   &lt;/array&gt;
+  &lt;/item&gt;
+  &lt;item key="rft.coden"&gt;JFECDT&lt;/item&gt;
+ &lt;/hash&gt;
+&lt;/perldata&gt;
+</ctx_obj_attributes>
+  <ctx_obj_targets>
+   <target>
+    <target_name>ULRICHSWEB_COM</target_name>
+    <target_public_name>ulrichsweb.com</target_public_name>
+    <object_portfolio_id></object_portfolio_id>
+    <target_id>110990803709000</target_id>
+    <interface_id>110990803709000</interface_id>
+    <interface_name>ULRICHSWEB_COM</interface_name>
+    <target_service_id>110990803709001</target_service_id>
+    <service_type>getCitedJournal</service_type>
+    <parser>ULRICH::ULRICH</parser>
+    <parse_param>url=http://ulrichsweb.serialssolutions.com</parse_param>
+    <proxy>yes</proxy>
+    <crossref>no</crossref>
+    <timediff_warning></timediff_warning>
+    <note></note>
+    <authentication></authentication>
+    <char_set>iso-8859-1</char_set>
+    <displayer></displayer>
+    <target_url>https://proxy-redirector.lib.uchicago.edu/login?url=http%3A%2F%2Fulrichsweb.serialssolutions.com%2Fapi%2Fopenurl%3Fissn%3D0304-405X</target_url>
+    <is_related>no</is_related>
+    <coverage>
+     <coverage_text>
+      <threshold_text></threshold_text>
+      <embargo_text></embargo_text>
+     </coverage_text>
+     <embargo></embargo>
+    </coverage>
+   </target>
+   <target>
+    <target_name>ELSEVIER_SCIENCEDIRECT_AUTOLOAD_JOURNALS</target_name>
+    <target_public_name>Elsevier ScienceDirect Journals</target_public_name>
+    <object_portfolio_id>2560000001603266</object_portfolio_id>
+    <target_id>3840000000000010</target_id>
+    <interface_id>110983570089325</interface_id>
+    <interface_name>ELSEVIER_SD</interface_name>
+    <target_service_id>3840000000000008</target_service_id>
+    <service_type>getFullTxt</service_type>
+    <parser>ELSEVIER::SCIENCE_DIRECT</parser>
+    <parse_param>host=https://www.sciencedirect.com/science/ &amp; prefsite = sd &amp; shib= &amp; u_shib= &amp;uis=0304405X</parse_param>
+    <proxy>yes</proxy>
+    <crossref>yes</crossref>
+    <timediff_warning></timediff_warning>
+    <note></note>
+    <authentication></authentication>
+    <char_set>utf8</char_set>
+    <displayer></displayer>
+    <target_url>https://proxy-redirector.lib.uchicago.edu/login?url=https%3A%2F%2Fwww.sciencedirect.com%2Fscience%3F_ob%3DGatewayURL%26_origin%3DSFX%26_method%3DcitationSearch%26_volkey%3D0304405X%25237%2523381%25234%26_version%3D1%26md5%3D06cd0c49a9e04c7bd4c8bfc759d4f0a3</target_url>
+    <is_related>no</is_related>
+    <coverage>
+     <coverage_text>
+      <threshold_text>
+       <coverage_statement>Available from 1974/05 volume: 1 issue: 1</coverage_statement>
+      </threshold_text>
+      <embargo_text></embargo_text>
+     </coverage_text>
+     <from>
+      <year>1974</year>
+      <month>05</month>
+      <volume>1</volume>
+      <issue>1</issue>
+     </from>
+     <embargo></embargo>
+    </coverage>
+   </target>
+   <target>
+    <target_name>ELSEVIER_SD_BACKFILE_ECONOMICS</target_name>
+    <target_public_name>Elsevier SD Backfile Economics</target_public_name>
+    <object_portfolio_id>111060797598033</object_portfolio_id>
+    <target_id>111060797464000</target_id>
+    <interface_id>1000000000001578</interface_id>
+    <interface_name>ELSEVIER_SD_BACKFILE</interface_name>
+    <target_service_id>111060797464001</target_service_id>
+    <service_type>getFullTxt</service_type>
+    <parser>ELSEVIER::SCIENCE_DIRECT</parser>
+    <parse_param>host=https://www.sciencedirect.com/science/ &amp; prefsite = sd &amp; shib= &amp; u_shib=&amp;uis=0304405X</parse_param>
+    <proxy>yes</proxy>
+    <crossref>yes</crossref>
+    <timediff_warning></timediff_warning>
+    <note></note>
+    <authentication></authentication>
+    <char_set></char_set>
+    <displayer></displayer>
+    <target_url>https://proxy-redirector.lib.uchicago.edu/login?url=https%3A%2F%2Fwww.sciencedirect.com%2Fscience%3F_ob%3DGatewayURL%26_origin%3DSFX%26_method%3DcitationSearch%26_volkey%3D0304405X%25237%2523381%25234%26_version%3D1%26md5%3D06cd0c49a9e04c7bd4c8bfc759d4f0a3</target_url>
+    <is_related>no</is_related>
+    <coverage>
+     <coverage_text>
+      <threshold_text>
+       <coverage_statement>Available from 1974/05/01 volume: 1 issue: 1  until 1994/12/31 volume: 36 issue: 3</coverage_statement>
+      </threshold_text>
+      <embargo_text></embargo_text>
+     </coverage_text>
+     <from>
+      <year>1974</year>
+      <month>05</month>
+      <day>01</day>
+      <volume>1</volume>
+      <issue>1</issue>
+     </from>
+     <to>
+      <year>1994</year>
+      <month>12</month>
+      <day>31</day>
+      <volume>36</volume>
+      <issue>3</issue>
+     </to>
+     <embargo></embargo>
+    </coverage>
+   </target>
+   <target>
+    <target_name>LOCAL_CATALOGUE_VUFIND_LCL</target_name>
+    <target_public_name>The University of Chicago Library Catalog</target_public_name>
+    <object_portfolio_id></object_portfolio_id>
+    <target_id>10330000000000047</target_id>
+    <interface_id>10330000000000047</interface_id>
+    <interface_name>LOCAL_CATALOGUE_VUFIND</interface_name>
+    <target_service_id>10330000000000051</target_service_id>
+    <service_type>getHolding</service_type>
+    <parser>VUFIND::vufind</parser>
+    <parse_param>url=http://catalog.lib.uchicago.edu/vufind</parse_param>
+    <proxy>no</proxy>
+    <crossref>no</crossref>
+    <timediff_warning></timediff_warning>
+    <note></note>
+    <authentication></authentication>
+    <char_set>utf8</char_set>
+    <displayer></displayer>
+    <target_url>http://catalog.lib.uchicago.edu/vufind/Search/Results?lookfor=0304-405X&amp;type=StandardNumbers&amp;submit=Find</target_url>
+    <is_related>no</is_related>
+    <coverage>
+     <coverage_text>
+      <threshold_text></threshold_text>
+      <embargo_text></embargo_text>
+     </coverage_text>
+     <embargo></embargo>
+    </coverage>
+   </target>
+   <target>
+    <target_name>DOCDEL_Scan and Deliver_LCL</target_name>
+    <target_public_name>Scan and Deliver</target_public_name>
+    <object_portfolio_id></object_portfolio_id>
+    <target_id>10330000000000030</target_id>
+    <interface_id>10330000000000030</interface_id>
+    <interface_name>DOCDEL_Scan and Deliver</interface_name>
+    <target_service_id>10330000000000034</target_service_id>
+    <service_type>getHolding</service_type>
+    <parser>ILLiad::DDL4</parser>
+    <parse_param>url=https://requests.lib.uchicago.edu/illiad/illiad.dll/OpenURL</parse_param>
+    <proxy>yes</proxy>
+    <crossref>yes</crossref>
+    <timediff_warning></timediff_warning>
+    <note>Get UChicago-owned articles and book chapters scanned and posted electronically.</note>
+    <authentication></authentication>
+    <char_set>utf8</char_set>
+    <displayer></displayer>
+    <target_url>https://proxy-redirector.lib.uchicago.edu/login?url=https%3A%2F%2Frequests.lib.uchicago.edu%2Filliad%2Filliad.dll%2FOpenURL%3Fvolume%3D7%26issue%3D4%26genre%3Ddocdel%26aufirst%3DBradford%26spage%3D381%26atitle%3DAsymmetric%2520Information%2520and%2520Portfolio%2520Performance%2520Measurement%26date%3D1979-12%26sid%3DProQ%253AProQ%253Apq1busgeneral%2520%28via%2520SFX%29%26title%3DJournal%2520of%2520Financial%2520Economics%26issn%3D0304-405X%26aulast%3DCornell</target_url>
+    <is_related>no</is_related>
+    <coverage>
+     <coverage_text>
+      <threshold_text></threshold_text>
+      <embargo_text></embargo_text>
+     </coverage_text>
+     <embargo></embargo>
+    </coverage>
+   </target>
+   <target>
+    <target_name>LOCAL_CATALOG_BORROWDIRECT_LCL</target_name>
+    <target_public_name>Search Borrow Direct Catalog</target_public_name>
+    <object_portfolio_id></object_portfolio_id>
+    <target_id>10330000000000032</target_id>
+    <interface_id>10330000000000032</interface_id>
+    <interface_name>LOCAL_CATALOG_BORROWDIRECT</interface_name>
+    <target_service_id>10330000000000036</target_service_id>
+    <service_type>getDocumentDelivery</service_type>
+    <parser>BORROWDIRECT::BORROWDIRECT</parser>
+    <parse_param>url=https://www.lib.uchicago.edu/e/we-includes/search_main/index_t_catalogs_borrowdirect.php</parse_param>
+    <proxy>yes</proxy>
+    <crossref>no</crossref>
+    <timediff_warning></timediff_warning>
+    <note>Get it from Ivy League and MIT libraries in approximately 4-5 days.</note>
+    <authentication></authentication>
+    <char_set>utf8</char_set>
+    <displayer></displayer>
+    <target_url></target_url>
+    <is_related>no</is_related>
+    <coverage>
+     <coverage_text>
+      <threshold_text></threshold_text>
+      <embargo_text></embargo_text>
+     </coverage_text>
+     <embargo></embargo>
+    </coverage>
+   </target>
+   <target>
+    <target_name>LOCAL_CATALOG_UBORROW_LCL</target_name>
+    <target_public_name>Search Uborrow Catalog</target_public_name>
+    <object_portfolio_id></object_portfolio_id>
+    <target_id>10330000000000029</target_id>
+    <interface_id>10330000000000029</interface_id>
+    <interface_name>LOCAL_CATALOG_UBORROW</interface_name>
+    <target_service_id>10330000000000033</target_service_id>
+    <service_type>getDocumentDelivery</service_type>
+    <parser>UBORROW::UBORROW</parser>
+    <parse_param>url=http://uborrow.relaisd2d.com/service-proxy</parse_param>
+    <proxy>yes</proxy>
+    <crossref>no</crossref>
+    <timediff_warning></timediff_warning>
+    <note>Get it from Big Ten university libraries in approximately 4-5 days.</note>
+    <authentication></authentication>
+    <char_set>utf8</char_set>
+    <displayer></displayer>
+    <target_url></target_url>
+    <is_related>no</is_related>
+    <coverage>
+     <coverage_text>
+      <threshold_text></threshold_text>
+      <embargo_text></embargo_text>
+     </coverage_text>
+     <embargo></embargo>
+    </coverage>
+   </target>
+   <target>
+    <target_name>DOCDEL_ILLIAD_PC_LOCAL_LCL</target_name>
+    <target_public_name>Interlibrary Loan</target_public_name>
+    <object_portfolio_id></object_portfolio_id>
+    <target_id>10330000000000012</target_id>
+    <interface_id>10330000000000012</interface_id>
+    <interface_name>DOCDEL_ILLIAD_PC_LOCAL</interface_name>
+    <target_service_id>10330000000000013</target_service_id>
+    <service_type>getDocumentDelivery</service_type>
+    <parser>ILLiad::DDL3</parser>
+    <parse_param>url=https://requests.lib.uchicago.edu/illiad/illiad.dll/OpenURL</parse_param>
+    <proxy>yes</proxy>
+    <crossref>yes</crossref>
+    <timediff_warning></timediff_warning>
+    <note>Get it from other libraries. Delivery time varies.</note>
+    <authentication></authentication>
+    <char_set>utf8</char_set>
+    <displayer></displayer>
+    <target_url>https://proxy-redirector.lib.uchicago.edu/login?url=https%3A%2F%2Frequests.lib.uchicago.edu%2Filliad%2Filliad.dll%2FOpenURL%3Ftitle%3DJournal%2520of%2520Financial%2520Economics%26sid%3DProQ%253AProQ%253Apq1busgeneral%2520%28via%2520SFX%29%26issn%3D0304-405X%26aulast%3DCornell%26volume%3D7%26aufirst%3DBradford%26issue%3D4%26genre%3Darticle%26atitle%3DAsymmetric%2520Information%2520and%2520Portfolio%2520Performance%2520Measurement%26spage%3D381%26date%3D1979-12</target_url>
+    <is_related>no</is_related>
+    <coverage>
+     <coverage_text>
+      <threshold_text></threshold_text>
+      <embargo_text></embargo_text>
+     </coverage_text>
+     <embargo></embargo>
+    </coverage>
+   </target>
+   <target>
+    <target_name>LOCAL_FEEDBACK</target_name>
+    <target_public_name>Contact Us</target_public_name>
+    <object_portfolio_id></object_portfolio_id>
+    <target_id>111000147718000</target_id>
+    <interface_id>111000147718000</interface_id>
+    <interface_name>LOCAL_FEEDBACK</interface_name>
+    <target_service_id>111000147718001</target_service_id>
+    <service_type>getWebService</service_type>
+    <parser>FEEDBACK::FEEDBACK</parser>
+    <parse_param>url=http://sfx.lib.uchicago.edu:3002/sfx_local/cgi/public/feedback.cgi &amp;
+email=sfx@lib.uchicago.edu
+</parse_param>
+    <proxy>yes</proxy>
+    <crossref>no</crossref>
+    <timediff_warning></timediff_warning>
+    <note></note>
+    <authentication></authentication>
+    <char_set>UTF8</char_set>
+    <displayer></displayer>
+    <target_url>https://proxy-redirector.lib.uchicago.edu/login?url=http%3A%2F%2Fsfx.lib.uchicago.edu%3A3002%2Fsfx_local%2Fcgi%2Fpublic%2Ffeedback.cgi%3Fday%3D1%26author%3DCornell%252C%2BB%252C%2BBradford%26articlet%3DAsymmetric%2BInformation%2Band%2BPortfolio%2BPerformance%2BMeasurement%26pages%3D381-%26publiplace%3DSWITZERLAND%26issn%3D0304-405X%26openurl%3Dhttps%253A%252F%252Fsfx.lib.uchicago.edu%252Fsfx_local%253Fsfx.response_type%253Dmulti_obj_detailed_xml%2526url_ver%253DZ39.88-2004%2526rft_val_fmt%253Dinfo%25253Aofi%25252Ffmt%25253Akev%25253Amtx%25253Ajournal%2526genre%253Darticle%2526sid%253DProQ%25253AProQ%25253Apq1busgeneral%2526atitle%253DAsymmetric%252520Information%252520and%252520Portfolio%252520Performance%252520Measurement%2526title%253DJournal%252520of%252520Financial%252520Economics%2526issn%253D0304405X%2526date%253D1979-12-01%2526volume%253D7%2526issue%253D4%2526spage%253D381%2526au%253DCornell%25252C%252520Bradford%2526isbn%253D%2526jtitle%253DJournal%252520of%252520Financial%252520Economics%2526btitle%253D%2526rft_id%253Dinfo%25253Aeric%25252F00115427%2526rft_id%253Dinfo%25253Adoi%25252F%26em%3Dsfx%2540lib.uchicago.edu%26sid%3DProQ%253AProQ%253Apq1busgeneral%26month%3D12%26source%3DPROQUEST%2B%28Via%2BSFX%29%26journal%3DJournal%2Bof%2BFinancial%2BEconomics%26publisher%3DNorth-Holland%26issue%3D4%26genre%3Darticle%26year%3D1979%26volume%3D7</target_url>
+    <is_related>no</is_related>
+    <coverage>
+     <coverage_text>
+      <threshold_text></threshold_text>
+      <embargo_text></embargo_text>
+     </coverage_text>
+     <embargo></embargo>
+    </coverage>
+   </target>
+   <target>
+    <target_name>COPYRIGHT_CLEARANCE_CENTER</target_name>
+    <target_public_name>Copyright Clearance Center</target_public_name>
+    <object_portfolio_id></object_portfolio_id>
+    <target_id>111069881052000</target_id>
+    <interface_id>111069881052000</interface_id>
+    <interface_name>COPYRIGHT_CLEARANCE_CENTER</interface_name>
+    <target_service_id>111069881052001</target_service_id>
+    <service_type>getWebService</service_type>
+    <parser>CCC::CCC</parser>
+    <parse_param>username=crerar&amp;
+password=jrl002&amp;
+type=TRS&amp;
+url=https://www.copyright.com/CCCDirect</parse_param>
+    <proxy>no</proxy>
+    <crossref>no</crossref>
+    <timediff_warning></timediff_warning>
+    <note></note>
+    <authentication></authentication>
+    <char_set></char_set>
+    <displayer></displayer>
+    <target_url></target_url>
+    <is_related>no</is_related>
+    <coverage>
+     <coverage_text>
+      <threshold_text></threshold_text>
+      <embargo_text></embargo_text>
+     </coverage_text>
+     <embargo></embargo>
+    </coverage>
+   </target>
+   <target>
+    <target_name>GOOGLE_SCHOLAR_FREE</target_name>
+    <target_public_name>Google Scholar</target_public_name>
+    <object_portfolio_id></object_portfolio_id>
+    <target_id>1000000000000009</target_id>
+    <interface_id>1000000000001761</interface_id>
+    <interface_name>GOOGLE</interface_name>
+    <target_service_id>1000000000000009</target_service_id>
+    <service_type>getWebSearch</service_type>
+    <parser>GoogleScholar::Search</parser>
+    <parse_param></parse_param>
+    <proxy>yes</proxy>
+    <crossref>no</crossref>
+    <timediff_warning></timediff_warning>
+    <note></note>
+    <authentication></authentication>
+    <char_set>iso-8859-1</char_set>
+    <displayer>GoogleScholar::Search</displayer>
+    <target_url></target_url>
+    <is_related>no</is_related>
+    <coverage>
+     <coverage_text>
+      <threshold_text></threshold_text>
+      <embargo_text></embargo_text>
+     </coverage_text>
+     <embargo></embargo>
+    </coverage>
+   </target>
+  </ctx_obj_targets>
+ </ctx_obj>
+</ctx_obj_set>

@@ -2,7 +2,11 @@ let message = "Your wish is granted.  Long live Jambi."
 
 let x () = Prelude.readfile "lib/synthese.xml"
 
-let get_links filepath =
+let list_to_option = function
+  | [] -> None
+  | x :: _ -> Some x
+
+let get_link filepath =
   let sfx_output = Prelude.readfile filepath in
   let get_info node =
     Ezxmlm.members "service_type" node
@@ -18,7 +22,5 @@ let get_links filepath =
      |> List.map snd
      |> List.map List.hd
      |> List.map Ezxmlm.data_to_string
-
-(* Local Variables: *)
-(* mode: tuareg *)
-(* End: *)
+     |> Prelude.List.nub
+     |> list_to_option
