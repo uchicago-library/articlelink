@@ -20,6 +20,8 @@ depends: [
   "utop"
   "ocp-index"
   "merlin"
+  "ezxmlm"
+  "httpr_cohttp"
   "odoc" {with-doc}
 ]
 build: [

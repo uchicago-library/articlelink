@@ -1,10 +1,10 @@
 (library
  (name lib)
- (libraries prelude etude ezxmlm))
+ (libraries prelude etude ezxmlm httpr_cohttp))
 
 (toplevel
  (name repl)
- (libraries prelude etude lib ezxmlm))
+ (libraries prelude etude lib ezxmlm httpr_cohttp))
 
 (env
  (dev

@@ -1,4 +1,4 @@
-let () = print_endline (Prelude.String.take 300 @@ Lib.Example_module.x)
+let () = ()
 
 (* Local Variables: *)
 (* mode: tuareg *)

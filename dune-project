@@ -18,7 +18,7 @@
    ocp-index
    merlin
    ezxmlm
-   httpr-cohttp)
+   httpr_cohttp)
  (source (github your-username/your-repo)))
 
 ; Local Variables:
