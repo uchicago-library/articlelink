@@ -1,7 +1,5 @@
 let message = "Your wish is granted.  Long live Jambi."
 
-let x () = Prelude.readfile "lib/synthese.xml"
-
 let list_to_option = function
   | [] -> None
   | x :: _ -> Some x
