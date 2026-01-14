@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ctx_obj_set>
+ <ctx_obj identifier="">
+  <ctx_obj_attributes>&lt;perldata&gt;
+ &lt;hash&gt;
+  &lt;item key="url_ver"&gt;Z39.88-2004&lt;/item&gt;
+  &lt;item key="rft.object_id"&gt;1000000000238231&lt;/item&gt;
+  &lt;item key="sfx.show_availability"&gt;1&lt;/item&gt;
+  &lt;item key="rft.jtitle"&gt;Quaestio&lt;/item&gt;
+  &lt;item key="rft.object_type"&gt;JOURNAL&lt;/item&gt;
+  &lt;item key="url_ctx_fmt"&gt;info:ofi/fmt:kev:mtx:ctx&lt;/item&gt;
+  &lt;item key="ctx_ver"&gt;Z39.88-2004&lt;/item&gt;
+  &lt;item key="rft.language"&gt;ita&lt;/item&gt;
+  &lt;item key="@sfx.category"&gt;
+   &lt;array&gt;
+    &lt;item key="0"&gt;Arts and Humanities&lt;/item&gt;
+   &lt;/array&gt;
+  &lt;/item&gt;
+  &lt;item key="sfx.has_full_text"&gt;yes&lt;/item&gt;
+  &lt;item key="rft.eissn"&gt;2295-9033&lt;/item&gt;
+  &lt;item key="@req.institutes"&gt;
+   &lt;array&gt;
+    &lt;item key="0"&gt;Staff&lt;/item&gt;
+   &lt;/array&gt;
+  &lt;/item&gt;
+  &lt;item key="rfr.rfr"&gt;sfxit.com:journalsearch&lt;/item&gt;
+  &lt;item key="req.session_id"&gt;s0601CCAE-F167-11F0-BF50-8E0B38CD4086&lt;/item&gt;
+  &lt;item key="sfx.request_id"&gt;54817407&lt;/item&gt;
+  &lt;item key="rft.title"&gt;Quaestio&lt;/item&gt;
+  &lt;item key="@rfr_id"&gt;
+   &lt;array&gt;
+    &lt;item key="0"&gt;info:sid/sfxit.com:journalsearch&lt;/item&gt;
+   &lt;/array&gt;
+  &lt;/item&gt;
+  &lt;item key="sfx.ignore_date_threshold"&gt;1&lt;/item&gt;
+  &lt;item key="sfx.sid"&gt;sfxit.com:journalsearch&lt;/item&gt;
+  &lt;item key="rft.lccn"&gt;  2004222930&lt;/item&gt;
+  &lt;item key="sfx.ignore_char_set"&gt;1&lt;/item&gt;
+  &lt;item key="_stash"&gt;
+   &lt;hash&gt;
+    &lt;item key="@rfr_id"&gt;
+     &lt;array&gt;
+      &lt;item key="0"&gt;info:sid/sfxit.com:journalsearch&lt;/item&gt;
+     &lt;/array&gt;
+    &lt;/item&gt;
+   &lt;/hash&gt;
+  &lt;/item&gt;
+  &lt;item key="rft.issn"&gt;1379-2547&lt;/item&gt;
+  &lt;item key="rft.pub"&gt;Brepols&lt;/item&gt;
+  &lt;item key="@rfe_id"&gt;
+   &lt;array&gt;
+   &lt;/array&gt;
+  &lt;/item&gt;
+  &lt;item key="rft.place"&gt;Turnhout&lt;/item&gt;
+  &lt;item key="rft.genre"&gt;journal&lt;/item&gt;
+  &lt;item key="@rft_id"&gt;
+   &lt;array&gt;
+   &lt;/array&gt;
+  &lt;/item&gt;
+  &lt;item key="sfx.response_type"&gt;multi_obj_detailed_xml&lt;/item&gt;
+  &lt;item key="existing_ts_ids"&gt;
+   &lt;array&gt;
+    &lt;item key="0"&gt;111069881052001&lt;/item&gt;
+    &lt;item key="1"&gt;10330000000000036&lt;/item&gt;
+    &lt;item key="2"&gt;110990803709001&lt;/item&gt;
+    &lt;item key="3"&gt;10330000000000051&lt;/item&gt;
+    &lt;item key="4"&gt;10330000000000033&lt;/item&gt;
+    &lt;item key="5"&gt;111000147718001&lt;/item&gt;
+    &lt;item key="6"&gt;10330000000000034&lt;/item&gt;
+    &lt;item key="7"&gt;10330000000000013&lt;/item&gt;
+    &lt;item key="8"&gt;1000000000002035&lt;/item&gt;
+   &lt;/array&gt;
+  &lt;/item&gt;
+  &lt;item key="ctx_enc"&gt;UTF-8&lt;/item&gt;
+  &lt;item key="@sfx.subcategory"&gt;
+   &lt;array&gt;
+    &lt;item key="0"&gt;Philosophy&lt;/item&gt;
+   &lt;/array&gt;
+  &lt;/item&gt;
+  &lt;item key="sfx.openurl"&gt;https://sfx.lib.uchicago.edu/sfx_local?sfx.response_type=multi_obj_detailed_xml&amp;amp;url_ver=Z39.88-2004&amp;amp;url_ctx_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Actx&amp;amp;ctx_enc=info%3Aofi%2Fenc%3AUTF-8&amp;amp;ctx_ver=Z39.88-2004&amp;amp;rfr_id=info%3Asid%2Fsfxit.com%3Ajournalsearch&amp;amp;sfx.ignore_date_threshold=1&amp;amp;rft.object_id=1000000000238231&lt;/item&gt;
+ &lt;/hash&gt;
+&lt;/perldata&gt;
+</ctx_obj_attributes>
+  <ctx_obj_targets>
+   <target>
+    <target_name>ULRICHSWEB_COM</target_name>
+    <target_public_name>ulrichsweb.com</target_public_name>
+    <object_portfolio_id></object_portfolio_id>
+    <target_id>110990803709000</target_id>
+    <interface_id>110990803709000</interface_id>
+    <interface_name>ULRICHSWEB_COM</interface_name>
+    <target_service_id>110990803709001</target_service_id>
+    <service_type>getCitedJournal</service_type>
+    <parser>ULRICH::ULRICH</parser>
+    <parse_param>url=http://ulrichsweb.serialssolutions.com</parse_param>
+    <proxy>yes</proxy>
+    <crossref>no</crossref>
+    <timediff_warning></timediff_warning>
+    <note></note>
+    <authentication></authentication>
+    <char_set>iso-8859-1</char_set>
+    <displayer></displayer>
+    <target_url>https://proxy-redirector.lib.uchicago.edu/login?url=http%3A%2F%2Fulrichsweb.serialssolutions.com%2Fapi%2Fopenurl%3Fissn%3D1379-2547</target_url>
+    <is_related>no</is_related>
+    <coverage>
+     <coverage_text>
+      <threshold_text></threshold_text>
+      <embargo_text></embargo_text>
+     </coverage_text>
+     <embargo></embargo>
+    </coverage>
+   </target>
+   <target>
+    <target_name>BREPOLS_JOURNALS</target_name>
+    <target_public_name>Brepols journals</target_public_name>
+    <object_portfolio_id>1000000000548499</object_portfolio_id>
+    <target_id>1000000000001395</target_id>
+    <interface_id>1000000000001395</interface_id>
+    <interface_name>BREPOLS</interface_name>
+    <target_service_id>1000000000002035</target_service_id>
+    <service_type>getFullTxt</service_type>
+    <parser>Bulk::BULK</parser>
+    <parse_param>url=https://www.brepolsonline.net &amp; shib= &amp; u_shib=&amp;jkey=http://www.brepolsonline.net/loi/quaestio</parse_param>
+    <proxy>yes</proxy>
+    <crossref>yes</crossref>
+    <timediff_warning></timediff_warning>
+    <note></note>
+    <authentication></authentication>
+    <char_set>iso-8859-1</char_set>
+    <displayer></displayer>
+    <target_url>https://proxy-redirector.lib.uchicago.edu/login?url=http%3A%2F%2Fwww.brepolsonline.net%2Floi%2Fquaestio</target_url>
+    <is_related>no</is_related>
+    <coverage>
+     <coverage_text>
+      <threshold_text>
+       <coverage_statement>Available from 2025</coverage_statement>
+       <coverage_statement>Available from 2007  until 2011</coverage_statement>
+      </threshold_text>
+      <embargo_text>
+       <embargo_statement>Most recent 10 year(s) available</embargo_statement>
+      </embargo_text>
+     </coverage_text>
+     <from>
+      <year>2007</year>
+     </from>
+     <to>
+      <year>2011</year>
+     </to>
+     <from>
+      <year>2025</year>
+     </from>
+     <embargo>
+      <availability>available</availability>
+      <year>10</year>
+      <days>3650</days>
+     </embargo>
+    </coverage>
+   </target>
+   <target>
+    <target_name>LOCAL_CATALOGUE_VUFIND_LCL</target_name>
+    <target_public_name>The University of Chicago Library Catalog</target_public_name>
+    <object_portfolio_id></object_portfolio_id>
+    <target_id>10330000000000047</target_id>
+    <interface_id>10330000000000047</interface_id>
+    <interface_name>LOCAL_CATALOGUE_VUFIND</interface_name>
+    <target_service_id>10330000000000051</target_service_id>
+    <service_type>getHolding</service_type>
+    <parser>VUFIND::vufind</parser>
+    <parse_param>url=http://catalog.lib.uchicago.edu/vufind</parse_param>
+    <proxy>no</proxy>
+    <crossref>no</crossref>
+    <timediff_warning></timediff_warning>
+    <note></note>
+    <authentication></authentication>
+    <char_set>utf8</char_set>
+    <displayer></displayer>
+    <target_url>http://catalog.lib.uchicago.edu/vufind/Search/Results?submit=Find&amp;type=StandardNumbers&amp;lookfor=1379-2547</target_url>
+    <is_related>no</is_related>
+    <coverage>
+     <coverage_text>
+      <threshold_text></threshold_text>
+      <embargo_text></embargo_text>
+     </coverage_text>
+     <embargo></embargo>
+    </coverage>
+   </target>
+   <target>
+    <target_name>DOCDEL_Scan and Deliver_LCL</target_name>
+    <target_public_name>Scan and Deliver</target_public_name>
+    <object_portfolio_id></object_portfolio_id>
+    <target_id>10330000000000030</target_id>
+    <interface_id>10330000000000030</interface_id>
+    <interface_name>DOCDEL_Scan and Deliver</interface_name>
+    <target_service_id>10330000000000034</target_service_id>
+    <service_type>getHolding</service_type>
+    <parser>ILLiad::DDL4</parser>
+    <parse_param>url=https://requests.lib.uchicago.edu/illiad/illiad.dll/OpenURL</parse_param>
+    <proxy>yes</proxy>
+    <crossref>yes</crossref>
+    <timediff_warning></timediff_warning>
+    <note>Get UChicago-owned articles and book chapters scanned and posted electronically.</note>
+    <authentication></authentication>
+    <char_set>utf8</char_set>
+    <displayer></displayer>
+    <target_url>https://proxy-redirector.lib.uchicago.edu/login?url=https%3A%2F%2Frequests.lib.uchicago.edu%2Filliad%2Filliad.dll%2FOpenURL%3Fissn%3D1379-2547%26title%3DQuaestio%26sid%3Dsfxit.com%253Ajournalsearch%2520%28via%2520SFX%29%26genre%3Ddocdel</target_url>
+    <is_related>no</is_related>
+    <coverage>
+     <coverage_text>
+      <threshold_text></threshold_text>
+      <embargo_text></embargo_text>
+     </coverage_text>
+     <embargo></embargo>
+    </coverage>
+   </target>
+   <target>
+    <target_name>LOCAL_CATALOG_BORROWDIRECT_LCL</target_name>
+    <target_public_name>Search Borrow Direct Catalog</target_public_name>
+    <object_portfolio_id></object_portfolio_id>
+    <target_id>10330000000000032</target_id>
+    <interface_id>10330000000000032</interface_id>
+    <interface_name>LOCAL_CATALOG_BORROWDIRECT</interface_name>
+    <target_service_id>10330000000000036</target_service_id>
+    <service_type>getDocumentDelivery</service_type>
+    <parser>BORROWDIRECT::BORROWDIRECT</parser>
+    <parse_param>url=https://www.lib.uchicago.edu/e/we-includes/search_main/index_t_catalogs_borrowdirect.php</parse_param>
+    <proxy>yes</proxy>
+    <crossref>no</crossref>
+    <timediff_warning></timediff_warning>
+    <note>Get it from Ivy League and MIT libraries in approximately 4-5 days.</note>
+    <authentication></authentication>
+    <char_set>utf8</char_set>
+    <displayer></displayer>
+    <target_url></target_url>
+    <is_related>no</is_related>
+    <coverage>
+     <coverage_text>
+      <threshold_text></threshold_text>
+      <embargo_text></embargo_text>
+     </coverage_text>
+     <embargo></embargo>
+    </coverage>
+   </target>
+   <target>
+    <target_name>LOCAL_CATALOG_UBORROW_LCL</target_name>
+    <target_public_name>Search Uborrow Catalog</target_public_name>
+    <object_portfolio_id></object_portfolio_id>
+    <target_id>10330000000000029</target_id>
+    <interface_id>10330000000000029</interface_id>
+    <interface_name>LOCAL_CATALOG_UBORROW</interface_name>
+    <target_service_id>10330000000000033</target_service_id>
+    <service_type>getDocumentDelivery</service_type>
+    <parser>UBORROW::UBORROW</parser>
+    <parse_param>url=http://uborrow.relaisd2d.com/service-proxy</parse_param>
+    <proxy>yes</proxy>
+    <crossref>no</crossref>
+    <timediff_warning></timediff_warning>
+    <note>Get it from Big Ten university libraries in approximately 4-5 days.</note>
+    <authentication></authentication>
+    <char_set>utf8</char_set>
+    <displayer></displayer>
+    <target_url></target_url>
+    <is_related>no</is_related>
+    <coverage>
+     <coverage_text>
+      <threshold_text></threshold_text>
+      <embargo_text></embargo_text>
+     </coverage_text>
+     <embargo></embargo>
+    </coverage>
+   </target>
+   <target>
+    <target_name>DOCDEL_ILLIAD_PC_LOCAL_LCL</target_name>
+    <target_public_name>Interlibrary Loan</target_public_name>
+    <object_portfolio_id></object_portfolio_id>
+    <target_id>10330000000000012</target_id>
+    <interface_id>10330000000000012</interface_id>
+    <interface_name>DOCDEL_ILLIAD_PC_LOCAL</interface_name>
+    <target_service_id>10330000000000013</target_service_id>
+    <service_type>getDocumentDelivery</service_type>
+    <parser>ILLiad::DDL3</parser>
+    <parse_param>url=https://requests.lib.uchicago.edu/illiad/illiad.dll/OpenURL</parse_param>
+    <proxy>yes</proxy>
+    <crossref>yes</crossref>
+    <timediff_warning></timediff_warning>
+    <note>Get it from other libraries. Delivery time varies.</note>
+    <authentication></authentication>
+    <char_set>utf8</char_set>
+    <displayer></displayer>
+    <target_url>https://proxy-redirector.lib.uchicago.edu/login?url=https%3A%2F%2Frequests.lib.uchicago.edu%2Filliad%2Filliad.dll%2FOpenURL%3Fgenre%3Darticle%26sid%3Dsfxit.com%253Ajournalsearch%2520%28via%2520SFX%29%26title%3DQuaestio%26issn%3D1379-2547</target_url>
+    <is_related>no</is_related>
+    <coverage>
+     <coverage_text>
+      <threshold_text></threshold_text>
+      <embargo_text></embargo_text>
+     </coverage_text>
+     <embargo></embargo>
+    </coverage>
+   </target>
+   <target>
+    <target_name>LOCAL_FEEDBACK</target_name>
+    <target_public_name>Contact Us</target_public_name>
+    <object_portfolio_id></object_portfolio_id>
+    <target_id>111000147718000</target_id>
+    <interface_id>111000147718000</interface_id>
+    <interface_name>LOCAL_FEEDBACK</interface_name>
+    <target_service_id>111000147718001</target_service_id>
+    <service_type>getWebService</service_type>
+    <parser>FEEDBACK::FEEDBACK</parser>
+    <parse_param>url=http://sfx.lib.uchicago.edu:3002/sfx_local/cgi/public/feedback.cgi &amp;
+email=sfx@lib.uchicago.edu
+</parse_param>
+    <proxy>yes</proxy>
+    <crossref>no</crossref>
+    <timediff_warning></timediff_warning>
+    <note></note>
+    <authentication></authentication>
+    <char_set>UTF8</char_set>
+    <displayer></displayer>
+    <target_url>https://proxy-redirector.lib.uchicago.edu/login?url=http%3A%2F%2Fsfx.lib.uchicago.edu%3A3002%2Fsfx_local%2Fcgi%2Fpublic%2Ffeedback.cgi%3Fpublisher%3DBrepols%26genre%3Darticle%26journal%3DQuaestio%26em%3Dsfx%2540lib.uchicago.edu%26openurl%3Dhttps%253A%252F%252Fsfx.lib.uchicago.edu%252Fsfx_local%253Fsfx.response_type%253Dmulti_obj_detailed_xml%2526url_ver%253DZ39.88-2004%2526url_ctx_fmt%253Dinfo%25253Aofi%25252Ffmt%25253Akev%25253Amtx%25253Actx%2526ctx_enc%253Dinfo%25253Aofi%25252Fenc%25253AUTF-8%2526ctx_ver%253DZ39.88-2004%2526rfr_id%253Dinfo%25253Asid%25252Fsfxit.com%25253Ajournalsearch%2526sfx.ignore_date_threshold%253D1%2526rft.object_id%253D1000000000238231%26sid%3Dsfxit.com%253Ajournalsearch%26issn%3D1379-2547%26publiplace%3DTurnhout</target_url>
+    <is_related>no</is_related>
+    <coverage>
+     <coverage_text>
+      <threshold_text></threshold_text>
+      <embargo_text></embargo_text>
+     </coverage_text>
+     <embargo></embargo>
+    </coverage>
+   </target>
+   <target>
+    <target_name>COPYRIGHT_CLEARANCE_CENTER</target_name>
+    <target_public_name>Copyright Clearance Center</target_public_name>
+    <object_portfolio_id></object_portfolio_id>
+    <target_id>111069881052000</target_id>
+    <interface_id>111069881052000</interface_id>
+    <interface_name>COPYRIGHT_CLEARANCE_CENTER</interface_name>
+    <target_service_id>111069881052001</target_service_id>
+    <service_type>getWebService</service_type>
+    <parser>CCC::CCC</parser>
+    <parse_param>username=crerar&amp;
+password=jrl002&amp;
+type=TRS&amp;
+url=https://www.copyright.com/CCCDirect</parse_param>
+    <proxy>no</proxy>
+    <crossref>no</crossref>
+    <timediff_warning></timediff_warning>
+    <note></note>
+    <authentication></authentication>
+    <char_set></char_set>
+    <displayer></displayer>
+    <target_url></target_url>
+    <is_related>no</is_related>
+    <coverage>
+     <coverage_text>
+      <threshold_text></threshold_text>
+      <embargo_text></embargo_text>
+     </coverage_text>
+     <embargo></embargo>
+    </coverage>
+   </target>
+  </ctx_obj_targets>
+ </ctx_obj>
+</ctx_obj_set>

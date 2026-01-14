@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ctx_obj_set>
+ <ctx_obj identifier="">
+  <ctx_obj_attributes>&lt;perldata&gt;
+ &lt;hash&gt;
+  &lt;item key="sfx.openurl"&gt;https://sfx.lib.uchicago.edu/sfx_local?sfx.response_type=multi_obj_detailed_xml&amp;amp;sid=FirstSearch%3AWorldCat&amp;amp;genre=journal&amp;amp;issn=0030-5383%3B0030-5383&amp;amp;eissn=2196-6877&lt;/item&gt;
+  &lt;item key="@sfx.subcategory"&gt;
+   &lt;array&gt;
+    &lt;item key="0"&gt;Language &amp;amp; Linguistics&lt;/item&gt;
+   &lt;/array&gt;
+  &lt;/item&gt;
+  &lt;item key="sfx.sid"&gt;FirstSearch:WorldCat&lt;/item&gt;
+  &lt;item key="existing_ts_ids"&gt;
+   &lt;array&gt;
+    &lt;item key="0"&gt;10330000000000036&lt;/item&gt;
+    &lt;item key="1"&gt;111069881052001&lt;/item&gt;
+    &lt;item key="2"&gt;10330000000000033&lt;/item&gt;
+    &lt;item key="3"&gt;10330000000000034&lt;/item&gt;
+    &lt;item key="4"&gt;111000147718001&lt;/item&gt;
+    &lt;item key="5"&gt;10330000000000013&lt;/item&gt;
+    &lt;item key="6"&gt;110990803709001&lt;/item&gt;
+    &lt;item key="7"&gt;10330000000000051&lt;/item&gt;
+    &lt;item key="8"&gt;4340000000000229&lt;/item&gt;
+    &lt;item key="9"&gt;5280000000000885&lt;/item&gt;
+    &lt;item key="10"&gt;5490000000001163&lt;/item&gt;
+    &lt;item key="11"&gt;3170000000000264&lt;/item&gt;
+   &lt;/array&gt;
+  &lt;/item&gt;
+  &lt;item key="@rfr_id"&gt;
+   &lt;array&gt;
+    &lt;item key="0"&gt;info:sid/FirstSearch:WorldCat&lt;/item&gt;
+   &lt;/array&gt;
+  &lt;/item&gt;
+  &lt;item key="sfx.ignore_date_threshold"&gt;1&lt;/item&gt;
+  &lt;item key="sfx.response_type"&gt;multi_obj_detailed_xml&lt;/item&gt;
+  &lt;item key="rft.title"&gt;Orientalistische Literaturzeitung&lt;/item&gt;
+  &lt;item key="sfx.request_id"&gt;54816759&lt;/item&gt;
+  &lt;item key="@rft_id"&gt;
+   &lt;array&gt;
+   &lt;/array&gt;
+  &lt;/item&gt;
+  &lt;item key="req.session_id"&gt;s4E8AC402-F163-11F0-9F7A-990838CD4086&lt;/item&gt;
+  &lt;item key="rft.genre"&gt;journal&lt;/item&gt;
+  &lt;item key="rfr.rfr"&gt;FirstSearch:WorldCat&lt;/item&gt;
+  &lt;item key="@rfe_id"&gt;
+   &lt;array&gt;
+   &lt;/array&gt;
+  &lt;/item&gt;
+  &lt;item key="rft.pub"&gt;De Gruyter&lt;/item&gt;
+  &lt;item key="rft.place"&gt;Deerfield Beach, FL&lt;/item&gt;
+  &lt;item key="sfx.sourcename"&gt;FIRSTSEARCH&lt;/item&gt;
+  &lt;item key="@req.institutes"&gt;
+   &lt;array&gt;
+    &lt;item key="0"&gt;Staff&lt;/item&gt;
+   &lt;/array&gt;
+  &lt;/item&gt;
+  &lt;item key="rft.eissn"&gt;2196-6877&lt;/item&gt;
+  &lt;item key="sfx.has_full_text"&gt;yes&lt;/item&gt;
+  &lt;item key="rft.issn"&gt;0030-5383&lt;/item&gt;
+  &lt;item key="rft.language"&gt;eng&lt;/item&gt;
+  &lt;item key="@sfx.category"&gt;
+   &lt;array&gt;
+    &lt;item key="0"&gt;Arts and Humanities&lt;/item&gt;
+   &lt;/array&gt;
+  &lt;/item&gt;
+  &lt;item key="_stash"&gt;
+   &lt;hash&gt;
+    &lt;item key="@rfr_id"&gt;
+     &lt;array&gt;
+      &lt;item key="0"&gt;info:sid/FirstSearch:WorldCat&lt;/item&gt;
+     &lt;/array&gt;
+    &lt;/item&gt;
+   &lt;/hash&gt;
+  &lt;/item&gt;
+  &lt;item key="rft.object_type"&gt;JOURNAL&lt;/item&gt;
+  &lt;item key="rft.jtitle"&gt;Orientalistische Literaturzeitung&lt;/item&gt;
+  &lt;item key="sfx.show_availability"&gt;1&lt;/item&gt;
+  &lt;item key="@rft.stitle"&gt;
+   &lt;array&gt;
+    &lt;item key="0"&gt;ORIENTALISTISCHE LITERATURZEITUNG ZEITSCHRIFT FUER DIE WISSENSCHAFT VOM GANZEN&lt;/item&gt;
+    &lt;item key="1"&gt;ORIENTALISTISCHE LITTERATUR-ZEITUNG&lt;/item&gt;
+   &lt;/array&gt;
+  &lt;/item&gt;
+  &lt;item key="sfx.ignore_char_set"&gt;1&lt;/item&gt;
+  &lt;item key="rft.lccn"&gt;   11034191 &lt;/item&gt;
+  &lt;item key="rft.object_id"&gt;110978976475975&lt;/item&gt;
+ &lt;/hash&gt;
+&lt;/perldata&gt;
+</ctx_obj_attributes>
+  <ctx_obj_targets>
+   <target>
+    <target_name>ULRICHSWEB_COM</target_name>
+    <target_public_name>ulrichsweb.com</target_public_name>
+    <object_portfolio_id></object_portfolio_id>
+    <target_id>110990803709000</target_id>
+    <interface_id>110990803709000</interface_id>
+    <interface_name>ULRICHSWEB_COM</interface_name>
+    <target_service_id>110990803709001</target_service_id>
+    <service_type>getCitedJournal</service_type>
+    <parser>ULRICH::ULRICH</parser>
+    <parse_param>url=http://ulrichsweb.serialssolutions.com</parse_param>
+    <proxy>yes</proxy>
+    <crossref>no</crossref>
+    <timediff_warning></timediff_warning>
+    <note></note>
+    <authentication></authentication>
+    <char_set>iso-8859-1</char_set>
+    <displayer></displayer>
+    <target_url>https://proxy-redirector.lib.uchicago.edu/login?url=http%3A%2F%2Fulrichsweb.serialssolutions.com%2Fapi%2Fopenurl%3Fissn%3D0030-5383</target_url>
+    <is_related>no</is_related>
+    <coverage>
+     <coverage_text>
+      <threshold_text></threshold_text>
+      <embargo_text></embargo_text>
+     </coverage_text>
+     <embargo></embargo>
+    </coverage>
+   </target>
+   <target>
+    <target_name>DE_GRUYTER_COMPLETE_JOURNAL_PACKAGE_2022</target_name>
+    <target_public_name>De Gruyter Complete Journal Package 2022</target_public_name>
+    <object_portfolio_id>5490000002371609</object_portfolio_id>
+    <target_id>5490000000001203</target_id>
+    <interface_id>110974475531562</interface_id>
+    <interface_name>WALTER_DE_GRUYTER</interface_name>
+    <target_service_id>5490000000001163</target_service_id>
+    <service_type>getFullTxt</service_type>
+    <parser>WDG::REF</parser>
+    <parse_param>url=https://www.degruyterbrill.com &amp; shib=shib &amp; u_shib=u_shib&amp;jkey=2196-6877</parse_param>
+    <proxy>yes</proxy>
+    <crossref>yes</crossref>
+    <timediff_warning></timediff_warning>
+    <note></note>
+    <authentication></authentication>
+    <char_set>utf8</char_set>
+    <displayer>FT::NO_FILL_IN</displayer>
+    <target_url>https://proxy-redirector.lib.uchicago.edu/login?url=https%3A%2F%2Fwww.degruyterbrill.com%2Fopenurl%3Fgenre%3Djournal%26issn%3D2196-6877</target_url>
+    <is_related>no</is_related>
+    <coverage>
+     <coverage_text>
+      <threshold_text>
+       <coverage_statement>Available from 1995/04/20 volume: 90 issue: 1</coverage_statement>
+      </threshold_text>
+      <embargo_text></embargo_text>
+     </coverage_text>
+     <from>
+      <year>1995</year>
+      <month>04</month>
+      <day>20</day>
+      <volume>90</volume>
+      <issue>1</issue>
+     </from>
+     <embargo></embargo>
+    </coverage>
+   </target>
+   <target>
+    <target_name>EBSCOHOST_HUMANITIES_SOURCE_ULTIMATE</target_name>
+    <target_public_name>EBSCOhost Humanities Source Ultimate</target_public_name>
+    <object_portfolio_id>4100000020156667</object_portfolio_id>
+    <target_id>4340000000000213</target_id>
+    <interface_id>111080144282000</interface_id>
+    <interface_name>EBSCOHOST</interface_name>
+    <target_service_id>4340000000000229</target_service_id>
+    <service_type>getFullTxt</service_type>
+    <parser>EBSCO_HOST::Journals</parser>
+    <parse_param>db_host=hsi &amp; url=https://search.ebscohost.com &amp; url1=https://openurl.ebscohost.com/linksvc/linking.aspx &amp; url2=https://openurl.ebsco.com &amp; shib= &amp; customer_id= &amp; sso= &amp; ipauth= &amp; opid=&amp;jkey=BHB</parse_param>
+    <proxy>yes</proxy>
+    <crossref>no</crossref>
+    <timediff_warning></timediff_warning>
+    <note></note>
+    <authentication></authentication>
+    <char_set>iso-8859-1</char_set>
+    <displayer></displayer>
+    <target_url>https://proxy-redirector.lib.uchicago.edu/login?url=https%3A%2F%2Fsearch.ebscohost.com%2Fdirect.asp%3Fsite%3Dehost-live%26db%3Dhsi%26jid%3DBHB</target_url>
+    <is_related>no</is_related>
+    <coverage>
+     <coverage_text>
+      <threshold_text>
+       <coverage_statement>Available from 2013/03/01</coverage_statement>
+      </threshold_text>
+      <embargo_text>
+       <embargo_statement>Most recent 1 year(s) not available</embargo_statement>
+      </embargo_text>
+     </coverage_text>
+     <from>
+      <year>2013</year>
+      <month>03</month>
+      <day>01</day>
+     </from>
+     <embargo>
+      <availability>not_available</availability>
+      <year>1</year>
+      <days>365</days>
+     </embargo>
+    </coverage>
+   </target>
+   <target>
+    <target_name>EZB-FREE-00999_FREELY_AVAILABLE_EZB_JOURNALS</target_name>
+    <target_public_name>EZB Free Journals</target_public_name>
+    <object_portfolio_id>5280000000558229</object_portfolio_id>
+    <target_id>5280000000001088</target_id>
+    <interface_id>4910000000000692</interface_id>
+    <interface_name>EZB</interface_name>
+    <target_service_id>5280000000000885</target_service_id>
+    <service_type>getFullTxt</service_type>
+    <parser>Bulk::DI</parser>
+    <parse_param>jkey=http://www.archive.org/search.php?query=Orientalistische%20Literaturzeitung &amp; id=110260_0030-5383</parse_param>
+    <proxy>no</proxy>
+    <crossref>no</crossref>
+    <timediff_warning></timediff_warning>
+    <note></note>
+    <authentication></authentication>
+    <char_set>iso-8859-1</char_set>
+    <displayer></displayer>
+    <target_url>http://www.archive.org/search.php?query=Orientalistische%20Literaturzeitung</target_url>
+    <is_related>no</is_related>
+    <coverage>
+     <coverage_text>
+      <threshold_text>
+       <coverage_statement>Available from 1898 volume: 1  until 1922 volume: 25</coverage_statement>
+      </threshold_text>
+      <embargo_text></embargo_text>
+     </coverage_text>
+     <from>
+      <year>1898</year>
+      <volume>1</volume>
+     </from>
+     <to>
+      <year>1922</year>
+      <volume>25</volume>
+     </to>
+     <embargo></embargo>
+    </coverage>
+   </target>
+   <target>
+    <target_name>PERIODICALS_ARCHIVE_ONLINE_COLLECTION_5</target_name>
+    <target_public_name>Periodicals Archive Online Collection 5</target_public_name>
+    <object_portfolio_id>3170000000235630</object_portfolio_id>
+    <target_id>3170000000000253</target_id>
+    <interface_id>2400000000000006</interface_id>
+    <interface_name>PROQUEST</interface_name>
+    <target_service_id>3170000000000264</target_service_id>
+    <service_type>getFullTxt</service_type>
+    <parser>PROQUEST::open</parser>
+    <parse_param>url=https://gateway.proquest.com/openurl &amp; clientid=14657 &amp; url2=https://www.proquest.com&amp;jkey=1817838</parse_param>
+    <proxy>yes</proxy>
+    <crossref>no</crossref>
+    <timediff_warning></timediff_warning>
+    <note></note>
+    <authentication></authentication>
+    <char_set>iso-8859-1</char_set>
+    <displayer></displayer>
+    <target_url>https://proxy-redirector.lib.uchicago.edu/login?url=https%3A%2F%2Fgateway.proquest.com%2Fopenurl%3Furl_ver%3DZ39.88-2004%26rfr_id%3Dinfo%253Axri%252Fsid%253ASFX%26genre%3Djournal%26res_dat%3Dxri%253Apqm%26req_dat%3Dxri%253Apqil%253Aclntid%253D14657%26rft_id%3D1817838%26rft_val_fmt%3Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Ajournal</target_url>
+    <is_related>no</is_related>
+    <coverage>
+     <coverage_text>
+      <threshold_text>
+       <coverage_statement>Available from 1898/01/01  until 1944/12/31</coverage_statement>
+       <coverage_statement>Available from 1953/01/01  until 2000/11/30</coverage_statement>
+      </threshold_text>
+      <embargo_text></embargo_text>
+     </coverage_text>
+     <from>
+      <year>1898</year>
+      <month>01</month>
+      <day>01</day>
+     </from>
+     <to>
+      <year>1944</year>
+      <month>12</month>
+      <day>31</day>
+     </to>
+     <from>
+      <year>1953</year>
+      <month>01</month>
+      <day>01</day>
+     </from>
+     <to>
+      <year>2000</year>
+      <month>11</month>
+      <day>30</day>
+     </to>
+     <embargo></embargo>
+    </coverage>
+   </target>
+   <target>
+    <target_name>LOCAL_CATALOGUE_VUFIND_LCL</target_name>
+    <target_public_name>The University of Chicago Library Catalog</target_public_name>
+    <object_portfolio_id></object_portfolio_id>
+    <target_id>10330000000000047</target_id>
+    <interface_id>10330000000000047</interface_id>
+    <interface_name>LOCAL_CATALOGUE_VUFIND</interface_name>
+    <target_service_id>10330000000000051</target_service_id>
+    <service_type>getHolding</service_type>
+    <parser>VUFIND::vufind</parser>
+    <parse_param>url=http://catalog.lib.uchicago.edu/vufind</parse_param>
+    <proxy>no</proxy>
+    <crossref>no</crossref>
+    <timediff_warning></timediff_warning>
+    <note></note>
+    <authentication></authentication>
+    <char_set>utf8</char_set>
+    <displayer></displayer>
+    <target_url>http://catalog.lib.uchicago.edu/vufind/Search/Results?submit=Find&amp;lookfor=0030-5383&amp;type=StandardNumbers</target_url>
+    <is_related>no</is_related>
+    <coverage>
+     <coverage_text>
+      <threshold_text></threshold_text>
+      <embargo_text></embargo_text>
+     </coverage_text>
+     <embargo></embargo>
+    </coverage>
+   </target>
+   <target>
+    <target_name>DOCDEL_Scan and Deliver_LCL</target_name>
+    <target_public_name>Scan and Deliver</target_public_name>
+    <object_portfolio_id></object_portfolio_id>
+    <target_id>10330000000000030</target_id>
+    <interface_id>10330000000000030</interface_id>
+    <interface_name>DOCDEL_Scan and Deliver</interface_name>
+    <target_service_id>10330000000000034</target_service_id>
+    <service_type>getHolding</service_type>
+    <parser>ILLiad::DDL4</parser>
+    <parse_param>url=https://requests.lib.uchicago.edu/illiad/illiad.dll/OpenURL</parse_param>
+    <proxy>yes</proxy>
+    <crossref>yes</crossref>
+    <timediff_warning></timediff_warning>
+    <note>Get UChicago-owned articles and book chapters scanned and posted electronically.</note>
+    <authentication></authentication>
+    <char_set>utf8</char_set>
+    <displayer></displayer>
+    <target_url>https://proxy-redirector.lib.uchicago.edu/login?url=https%3A%2F%2Frequests.lib.uchicago.edu%2Filliad%2Filliad.dll%2FOpenURL%3Fgenre%3Ddocdel%26issn%3D0030-5383%26sid%3DFirstSearch%253AWorldCat%2520%28via%2520SFX%29%26title%3DOrientalistische%2520Literaturzeitung</target_url>
+    <is_related>no</is_related>
+    <coverage>
+     <coverage_text>
+      <threshold_text></threshold_text>
+      <embargo_text></embargo_text>
+     </coverage_text>
+     <embargo></embargo>
+    </coverage>
+   </target>
+   <target>
+    <target_name>LOCAL_CATALOG_BORROWDIRECT_LCL</target_name>
+    <target_public_name>Search Borrow Direct Catalog</target_public_name>
+    <object_portfolio_id></object_portfolio_id>
+    <target_id>10330000000000032</target_id>
+    <interface_id>10330000000000032</interface_id>
+    <interface_name>LOCAL_CATALOG_BORROWDIRECT</interface_name>
+    <target_service_id>10330000000000036</target_service_id>
+    <service_type>getDocumentDelivery</service_type>
+    <parser>BORROWDIRECT::BORROWDIRECT</parser>
+    <parse_param>url=https://www.lib.uchicago.edu/e/we-includes/search_main/index_t_catalogs_borrowdirect.php</parse_param>
+    <proxy>yes</proxy>
+    <crossref>no</crossref>
+    <timediff_warning></timediff_warning>
+    <note>Get it from Ivy League and MIT libraries in approximately 4-5 days.</note>
+    <authentication></authentication>
+    <char_set>utf8</char_set>
+    <displayer></displayer>
+    <target_url></target_url>
+    <is_related>no</is_related>
+    <coverage>
+     <coverage_text>
+      <threshold_text></threshold_text>
+      <embargo_text></embargo_text>
+     </coverage_text>
+     <embargo></embargo>
+    </coverage>
+   </target>
+   <target>
+    <target_name>LOCAL_CATALOG_UBORROW_LCL</target_name>
+    <target_public_name>Search Uborrow Catalog</target_public_name>
+    <object_portfolio_id></object_portfolio_id>
+    <target_id>10330000000000029</target_id>
+    <interface_id>10330000000000029</interface_id>
+    <interface_name>LOCAL_CATALOG_UBORROW</interface_name>
+    <target_service_id>10330000000000033</target_service_id>
+    <service_type>getDocumentDelivery</service_type>
+    <parser>UBORROW::UBORROW</parser>
+    <parse_param>url=http://uborrow.relaisd2d.com/service-proxy</parse_param>
+    <proxy>yes</proxy>
+    <crossref>no</crossref>
+    <timediff_warning></timediff_warning>
+    <note>Get it from Big Ten university libraries in approximately 4-5 days.</note>
+    <authentication></authentication>
+    <char_set>utf8</char_set>
+    <displayer></displayer>
+    <target_url></target_url>
+    <is_related>no</is_related>
+    <coverage>
+     <coverage_text>
+      <threshold_text></threshold_text>
+      <embargo_text></embargo_text>
+     </coverage_text>
+     <embargo></embargo>
+    </coverage>
+   </target>
+   <target>
+    <target_name>DOCDEL_ILLIAD_PC_LOCAL_LCL</target_name>
+    <target_public_name>Interlibrary Loan</target_public_name>
+    <object_portfolio_id></object_portfolio_id>
+    <target_id>10330000000000012</target_id>
+    <interface_id>10330000000000012</interface_id>
+    <interface_name>DOCDEL_ILLIAD_PC_LOCAL</interface_name>
+    <target_service_id>10330000000000013</target_service_id>
+    <service_type>getDocumentDelivery</service_type>
+    <parser>ILLiad::DDL3</parser>
+    <parse_param>url=https://requests.lib.uchicago.edu/illiad/illiad.dll/OpenURL</parse_param>
+    <proxy>yes</proxy>
+    <crossref>yes</crossref>
+    <timediff_warning></timediff_warning>
+    <note>Get it from other libraries. Delivery time varies.</note>
+    <authentication></authentication>
+    <char_set>utf8</char_set>
+    <displayer></displayer>
+    <target_url>https://proxy-redirector.lib.uchicago.edu/login?url=https%3A%2F%2Frequests.lib.uchicago.edu%2Filliad%2Filliad.dll%2FOpenURL%3Fgenre%3Darticle%26issn%3D0030-5383%26title%3DOrientalistische%2520Literaturzeitung%26sid%3DFirstSearch%253AWorldCat%2520%28via%2520SFX%29</target_url>
+    <is_related>no</is_related>
+    <coverage>
+     <coverage_text>
+      <threshold_text></threshold_text>
+      <embargo_text></embargo_text>
+     </coverage_text>
+     <embargo></embargo>
+    </coverage>
+   </target>
+   <target>
+    <target_name>LOCAL_FEEDBACK</target_name>
+    <target_public_name>Contact Us</target_public_name>
+    <object_portfolio_id></object_portfolio_id>
+    <target_id>111000147718000</target_id>
+    <interface_id>111000147718000</interface_id>
+    <interface_name>LOCAL_FEEDBACK</interface_name>
+    <target_service_id>111000147718001</target_service_id>
+    <service_type>getWebService</service_type>
+    <parser>FEEDBACK::FEEDBACK</parser>
+    <parse_param>url=http://sfx.lib.uchicago.edu:3002/sfx_local/cgi/public/feedback.cgi &amp;
+email=sfx@lib.uchicago.edu
+</parse_param>
+    <proxy>yes</proxy>
+    <crossref>no</crossref>
+    <timediff_warning></timediff_warning>
+    <note></note>
+    <authentication></authentication>
+    <char_set>UTF8</char_set>
+    <displayer></displayer>
+    <target_url>https://proxy-redirector.lib.uchicago.edu/login?url=http%3A%2F%2Fsfx.lib.uchicago.edu%3A3002%2Fsfx_local%2Fcgi%2Fpublic%2Ffeedback.cgi%3Fgenre%3Darticle%26publisher%3DDe%2BGruyter%26journal%3DOrientalistische%2BLiteraturzeitung%26source%3DFIRSTSEARCH%2B%28Via%2BSFX%29%26sid%3DFirstSearch%253AWorldCat%26em%3Dsfx%2540lib.uchicago.edu%26openurl%3Dhttps%253A%252F%252Fsfx.lib.uchicago.edu%252Fsfx_local%253Fsfx.response_type%253Dmulti_obj_detailed_xml%2526sid%253DFirstSearch%25253AWorldCat%2526genre%253Djournal%2526issn%253D0030-5383%25253B0030-5383%2526eissn%253D2196-6877%26publiplace%3DDeerfield%2BBeach%252C%2BFL%26issn%3D0030-5383</target_url>
+    <is_related>no</is_related>
+    <coverage>
+     <coverage_text>
+      <threshold_text></threshold_text>
+      <embargo_text></embargo_text>
+     </coverage_text>
+     <embargo></embargo>
+    </coverage>
+   </target>
+   <target>
+    <target_name>COPYRIGHT_CLEARANCE_CENTER</target_name>
+    <target_public_name>Copyright Clearance Center</target_public_name>
+    <object_portfolio_id></object_portfolio_id>
+    <target_id>111069881052000</target_id>
+    <interface_id>111069881052000</interface_id>
+    <interface_name>COPYRIGHT_CLEARANCE_CENTER</interface_name>
+    <target_service_id>111069881052001</target_service_id>
+    <service_type>getWebService</service_type>
+    <parser>CCC::CCC</parser>
+    <parse_param>username=crerar&amp;
+password=jrl002&amp;
+type=TRS&amp;
+url=https://www.copyright.com/CCCDirect</parse_param>
+    <proxy>no</proxy>
+    <crossref>no</crossref>
+    <timediff_warning></timediff_warning>
+    <note></note>
+    <authentication></authentication>
+    <char_set></char_set>
+    <displayer></displayer>
+    <target_url></target_url>
+    <is_related>no</is_related>
+    <coverage>
+     <coverage_text>
+      <threshold_text></threshold_text>
+      <embargo_text></embargo_text>
+     </coverage_text>
+     <embargo></embargo>
+    </coverage>
+   </target>
+  </ctx_obj_targets>
+ </ctx_obj>
+</ctx_obj_set>

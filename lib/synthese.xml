@@ -1,0 +1,608 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ctx_obj_set>
+ <ctx_obj identifier="">
+  <ctx_obj_attributes>&lt;perldata&gt;
+ &lt;hash&gt;
+  &lt;item key="@sfx.category"&gt;
+   &lt;array&gt;
+    &lt;item key="0"&gt;Arts and Humanities&lt;/item&gt;
+    &lt;item key="1"&gt;Social Sciences&lt;/item&gt;
+   &lt;/array&gt;
+  &lt;/item&gt;
+  &lt;item key="rft.language"&gt;dut&lt;/item&gt;
+  &lt;item key="rft.date"&gt;20210402&lt;/item&gt;
+  &lt;item key="rft.object_type"&gt;JOURNAL&lt;/item&gt;
+  &lt;item key="rft.epage"&gt;2043&lt;/item&gt;
+  &lt;item key="sfx.show_availability"&gt;1&lt;/item&gt;
+  &lt;item key="@rft.stitle"&gt;
+   &lt;array&gt;
+    &lt;item key="0"&gt;SYNTHESE DORDRECHT&lt;/item&gt;
+    &lt;item key="1"&gt;SYNTHESE AN INTERNATIONAL JOURNAL FOR EPISTEMOLOGY METHODOLOGY AND PHILOSOPHY&lt;/item&gt;
+   &lt;/array&gt;
+  &lt;/item&gt;
+  &lt;item key="rft.jtitle"&gt;Synthese&lt;/item&gt;
+  &lt;item key="rft.object_id"&gt;954925448756&lt;/item&gt;
+  &lt;item key="sfx.sourcename"&gt;EBSCO&lt;/item&gt;
+  &lt;item key="sfx.has_full_text"&gt;yes&lt;/item&gt;
+  &lt;item key="rft.eissn"&gt;1573-0964&lt;/item&gt;
+  &lt;item key="@req.institutes"&gt;
+   &lt;array&gt;
+    &lt;item key="0"&gt;Staff&lt;/item&gt;
+   &lt;/array&gt;
+  &lt;/item&gt;
+  &lt;item key="rft.title"&gt;Synthese&lt;/item&gt;
+  &lt;item key="sfx.request_id"&gt;54806171&lt;/item&gt;
+  &lt;item key="rfr.rfr"&gt;EBSCO:Complementary Index:150003317&lt;/item&gt;
+  &lt;item key="req.session_id"&gt;s0FC8A164-F0B7-11F0-90B7-5AD637CD4086&lt;/item&gt;
+  &lt;item key="sfx.sid"&gt;EBSCO:Complementary Index:150003317&lt;/item&gt;
+  &lt;item key="rft.doi"&gt;10.1007/s11229-018-1751-6&lt;/item&gt;
+  &lt;item key="@rfr_id"&gt;
+   &lt;array&gt;
+    &lt;item key="0"&gt;info:sid/EBSCO:Complementary Index:150003317&lt;/item&gt;
+   &lt;/array&gt;
+  &lt;/item&gt;
+  &lt;item key="_stash"&gt;
+   &lt;hash&gt;
+    &lt;item key="@rft_id"&gt;
+     &lt;array&gt;
+      &lt;item key="0"&gt;info:doi/10.1007/s11229-018-1751-6&lt;/item&gt;
+     &lt;/array&gt;
+    &lt;/item&gt;
+    &lt;item key="@rfr_id"&gt;
+     &lt;array&gt;
+      &lt;item key="0"&gt;info:sid/EBSCO:Complementary Index:150003317&lt;/item&gt;
+     &lt;/array&gt;
+    &lt;/item&gt;
+   &lt;/hash&gt;
+  &lt;/item&gt;
+  &lt;item key="rft.coden"&gt;SYNTAE&lt;/item&gt;
+  &lt;item key="rft.day"&gt;2&lt;/item&gt;
+  &lt;item key="sfx.ignore_char_set"&gt;1&lt;/item&gt;
+  &lt;item key="rft.spage"&gt;2029&lt;/item&gt;
+  &lt;item key="rft.lccn"&gt;  2004233322&lt;/item&gt;
+  &lt;item key="rft.pub"&gt;Hybrid&lt;/item&gt;
+  &lt;item key="@rfe_id"&gt;
+   &lt;array&gt;
+   &lt;/array&gt;
+  &lt;/item&gt;
+  &lt;item key="rft.place"&gt;NETHERLANDS&lt;/item&gt;
+  &lt;item key="rft.volume"&gt;198&lt;/item&gt;
+  &lt;item key="rft.issn"&gt;0039-7857&lt;/item&gt;
+  &lt;item key="sfx.response_type"&gt;multi_obj_detailed_xml&lt;/item&gt;
+  &lt;item key="rft.volume_start"&gt;198&lt;/item&gt;
+  &lt;item key="@rft_id"&gt;
+   &lt;array&gt;
+    &lt;item key="0"&gt;info:doi/10.1007/s11229-018-1751-6&lt;/item&gt;
+   &lt;/array&gt;
+  &lt;/item&gt;
+  &lt;item key="rft.atitle"&gt;Taming the runabout imagination ticket.&lt;/item&gt;
+  &lt;item key="rft.genre"&gt;article&lt;/item&gt;
+  &lt;item key="@sfx.subcategory"&gt;
+   &lt;array&gt;
+    &lt;item key="0"&gt;Language &amp;amp; Linguistics&lt;/item&gt;
+    &lt;item key="1"&gt;Journalism, Mass Communication, Media &amp;amp; Publishing&lt;/item&gt;
+   &lt;/array&gt;
+  &lt;/item&gt;
+  &lt;item key="sfx.openurl"&gt;https://sfx.lib.uchicago.edu/sfx_local?sfx.response_type=multi_obj_detailed_xml&amp;amp;ID=doi%3A10.1007%2Fs11229-018-1751-6&amp;amp;genre=article&amp;amp;atitle=Taming%20the%20runabout%20imagination%20ticket.&amp;amp;title=Synthese&amp;amp;issn=00397857&amp;amp;isbn=&amp;amp;volume=198&amp;amp;issue=&amp;amp;date=20210402&amp;amp;au=Berto%2C%20Francesco&amp;amp;spage=2029&amp;amp;pages=2029-2043&amp;amp;sid=EBSCO%3AComplementary%20Index%3A150003317&lt;/item&gt;
+  &lt;item key="rft.pages"&gt;2029-2043&lt;/item&gt;
+  &lt;item key="rft.year"&gt;2021&lt;/item&gt;
+  &lt;item key="existing_ts_ids"&gt;
+   &lt;array&gt;
+    &lt;item key="0"&gt;10330000000000036&lt;/item&gt;
+    &lt;item key="1"&gt;111069881052001&lt;/item&gt;
+    &lt;item key="2"&gt;1000000000000009&lt;/item&gt;
+    &lt;item key="3"&gt;10330000000000013&lt;/item&gt;
+    &lt;item key="4"&gt;10330000000000034&lt;/item&gt;
+    &lt;item key="5"&gt;111000147718001&lt;/item&gt;
+    &lt;item key="6"&gt;10330000000000033&lt;/item&gt;
+    &lt;item key="7"&gt;3460000000000033&lt;/item&gt;
+    &lt;item key="8"&gt;10330000000000051&lt;/item&gt;
+    &lt;item key="9"&gt;110990803709001&lt;/item&gt;
+    &lt;item key="10"&gt;3860000000000676&lt;/item&gt;
+    &lt;item key="11"&gt;111034808820001&lt;/item&gt;
+    &lt;item key="12"&gt;4940000000000057&lt;/item&gt;
+    &lt;item key="13"&gt;5470000000000419&lt;/item&gt;
+    &lt;item key="14"&gt;4340000000000229&lt;/item&gt;
+   &lt;/array&gt;
+  &lt;/item&gt;
+  &lt;item key="rft.month"&gt;4&lt;/item&gt;
+ &lt;/hash&gt;
+&lt;/perldata&gt;
+</ctx_obj_attributes>
+  <ctx_obj_targets>
+   <target>
+    <target_name>JSTOR_COMPLETE_LEGACY</target_name>
+    <target_public_name>JSTOR</target_public_name>
+    <object_portfolio_id>1000000001792265</object_portfolio_id>
+    <target_id>111034808820000</target_id>
+    <interface_id>111067356102000</interface_id>
+    <interface_name>JSTOR</interface_name>
+    <target_service_id>111034808820001</target_service_id>
+    <service_type>getFullTxt</service_type>
+    <parser>JSTOR::JSTOR</parser>
+    <parse_param>url=https://www.jstor.org &amp; shib= &amp; url2=https://shibbolethsp.jstor.org/start &amp; u_shib=&amp;jkey=synthese</parse_param>
+    <proxy>yes</proxy>
+    <crossref>yes</crossref>
+    <timediff_warning></timediff_warning>
+    <note></note>
+    <authentication></authentication>
+    <char_set>iso-8859-1</char_set>
+    <displayer></displayer>
+    <target_url>https://proxy-redirector.lib.uchicago.edu/login?url=https%3A%2F%2Fwww.jstor.org%2Fopenurl%3Fsid%3Dprimo%26issn%3D00397857%26volume%3D198%26spage%3D2029%26date%3D2021</target_url>
+    <is_related>no</is_related>
+    <coverage>
+     <coverage_text>
+      <threshold_text>
+       <coverage_statement>Available from 1936/01/01 volume: 1 issue: 1</coverage_statement>
+      </threshold_text>
+      <embargo_text>
+       <embargo_statement>Most recent 4 year(s) not available</embargo_statement>
+      </embargo_text>
+     </coverage_text>
+     <from>
+      <year>1936</year>
+      <month>01</month>
+      <day>01</day>
+      <volume>1</volume>
+      <issue>1</issue>
+     </from>
+     <embargo>
+      <availability>not_available</availability>
+      <year>4</year>
+      <days>1460</days>
+     </embargo>
+    </coverage>
+   </target>
+   <target>
+    <target_name>JSTOR_ARCHIVAL_JOURNALS_AND_PRIMARY_SOURCES_COLLECTION</target_name>
+    <target_public_name>JSTOR Archival Journals and Primary Sources Collection</target_public_name>
+    <object_portfolio_id>5470000003519263</object_portfolio_id>
+    <target_id>5470000000000437</target_id>
+    <interface_id>111067356102000</interface_id>
+    <interface_name>JSTOR</interface_name>
+    <target_service_id>5470000000000419</target_service_id>
+    <service_type>getFullTxt</service_type>
+    <parser>JSTOR::JSTOR</parser>
+    <parse_param>url=https://www.jstor.org &amp; shib= &amp; url2=https://shibbolethsp.jstor.org/start &amp; u_shib=&amp;jkey=synthese</parse_param>
+    <proxy>yes</proxy>
+    <crossref>no</crossref>
+    <timediff_warning></timediff_warning>
+    <note></note>
+    <authentication></authentication>
+    <char_set>iso-8859-1</char_set>
+    <displayer></displayer>
+    <target_url>https://proxy-redirector.lib.uchicago.edu/login?url=https%3A%2F%2Fwww.jstor.org%2Fopenurl%3Fissn%3D00397857%26sid%3Dprimo%26volume%3D198%26spage%3D2029%26date%3D2021</target_url>
+    <is_related>no</is_related>
+    <coverage>
+     <coverage_text>
+      <threshold_text>
+       <coverage_statement>Available from 1936/01/01 volume: 1 issue: 1</coverage_statement>
+      </threshold_text>
+      <embargo_text>
+       <embargo_statement>Most recent 4 year(s) not available</embargo_statement>
+      </embargo_text>
+     </coverage_text>
+     <from>
+      <year>1936</year>
+      <month>01</month>
+      <day>01</day>
+      <volume>1</volume>
+      <issue>1</issue>
+     </from>
+     <embargo>
+      <availability>not_available</availability>
+      <year>4</year>
+      <days>1460</days>
+     </embargo>
+    </coverage>
+   </target>
+   <target>
+    <target_name>SPRINGER_LINK_JOURNALS_AUTOLOAD</target_name>
+    <target_public_name>Springer Journals</target_public_name>
+    <object_portfolio_id>3850000001276455</object_portfolio_id>
+    <target_id>3860000000000884</target_id>
+    <interface_id>3860000000000885</interface_id>
+    <interface_name>SPRINGER_LINK_AUTOLOAD</interface_name>
+    <target_service_id>3860000000000676</target_service_id>
+    <service_type>getFullTxt</service_type>
+    <parser>Springer::SPRINGER</parser>
+    <parse_param>url=https://link.springer.com &amp;amp; url1=https://rd.springer.com &amp;amp; code= &amp;amp; shib= &amp;amp; u_shib=&amp;linkurl=https://link.springer.com/journal/11229</parse_param>
+    <proxy>yes</proxy>
+    <crossref>yes</crossref>
+    <timediff_warning></timediff_warning>
+    <note></note>
+    <authentication></authentication>
+    <char_set>utf8</char_set>
+    <displayer></displayer>
+    <target_url>https://proxy-redirector.lib.uchicago.edu/login?url=https%3A%2F%2Flink.springer.com%2Farticle%2F10.1007%2Fs11229-018-1751-6</target_url>
+    <is_related>no</is_related>
+    <coverage>
+     <coverage_text>
+      <threshold_text>
+       <coverage_statement>Available from 1936/12/01 volume: 1 issue: 1</coverage_statement>
+      </threshold_text>
+      <embargo_text></embargo_text>
+     </coverage_text>
+     <from>
+      <year>1936</year>
+      <month>12</month>
+      <day>01</day>
+      <volume>1</volume>
+      <issue>1</issue>
+     </from>
+     <embargo></embargo>
+    </coverage>
+   </target>
+   <target>
+    <target_name>ULRICHSWEB_COM</target_name>
+    <target_public_name>ulrichsweb.com</target_public_name>
+    <object_portfolio_id></object_portfolio_id>
+    <target_id>110990803709000</target_id>
+    <interface_id>110990803709000</interface_id>
+    <interface_name>ULRICHSWEB_COM</interface_name>
+    <target_service_id>110990803709001</target_service_id>
+    <service_type>getCitedJournal</service_type>
+    <parser>ULRICH::ULRICH</parser>
+    <parse_param>url=http://ulrichsweb.serialssolutions.com</parse_param>
+    <proxy>yes</proxy>
+    <crossref>no</crossref>
+    <timediff_warning></timediff_warning>
+    <note></note>
+    <authentication></authentication>
+    <char_set>iso-8859-1</char_set>
+    <displayer></displayer>
+    <target_url>https://proxy-redirector.lib.uchicago.edu/login?url=http%3A%2F%2Fulrichsweb.serialssolutions.com%2Fapi%2Fopenurl%3Fissn%3D0039-7857</target_url>
+    <is_related>no</is_related>
+    <coverage>
+     <coverage_text>
+      <threshold_text></threshold_text>
+      <embargo_text></embargo_text>
+     </coverage_text>
+     <embargo></embargo>
+    </coverage>
+   </target>
+   <target>
+    <target_name>EBSCOHOST_HUMANITIES_SOURCE_ULTIMATE</target_name>
+    <target_public_name>EBSCOhost Humanities Source Ultimate</target_public_name>
+    <object_portfolio_id>4340000000778900</object_portfolio_id>
+    <target_id>4340000000000213</target_id>
+    <interface_id>111080144282000</interface_id>
+    <interface_name>EBSCOHOST</interface_name>
+    <target_service_id>4340000000000229</target_service_id>
+    <service_type>getFullTxt</service_type>
+    <parser>EBSCO_HOST::Journals</parser>
+    <parse_param>db_host=hsi &amp; url=https://search.ebscohost.com &amp; url1=https://openurl.ebscohost.com/linksvc/linking.aspx &amp; url2=https://openurl.ebsco.com &amp; shib= &amp; customer_id= &amp; sso= &amp; ipauth= &amp; opid=&amp;jkey=4LI</parse_param>
+    <proxy>yes</proxy>
+    <crossref>no</crossref>
+    <timediff_warning></timediff_warning>
+    <note></note>
+    <authentication></authentication>
+    <char_set>iso-8859-1</char_set>
+    <displayer></displayer>
+    <target_url>https://proxy-redirector.lib.uchicago.edu/login?url=https%3A%2F%2Fopenurl.ebsco.com%2Flinksvc%2Flinking.aspx%3Fspage%3D2029%26date%3D20210402%26issn%3D0039-7857%26doi%3D10.1007%252Fs11229-018-1751-6%26genre%3Darticle%26sid%3DPrimo%26epage%3D2043%26title%3DSynthese%26volume%3D198</target_url>
+    <is_related>no</is_related>
+    <coverage>
+     <coverage_text>
+      <threshold_text>
+       <coverage_statement>Available from 2008/01/01</coverage_statement>
+      </threshold_text>
+      <embargo_text>
+       <embargo_statement>Most recent 1 year(s) not available</embargo_statement>
+      </embargo_text>
+     </coverage_text>
+     <from>
+      <year>2008</year>
+      <month>01</month>
+      <day>01</day>
+     </from>
+     <embargo>
+      <availability>not_available</availability>
+      <year>1</year>
+      <days>365</days>
+     </embargo>
+    </coverage>
+   </target>
+   <target>
+    <target_name>PROQUEST_ONE_LITERATURE_US_CUSTOMERS_ONLY</target_name>
+    <target_public_name>ProQuest One Literature - U.S. Customers Only</target_public_name>
+    <object_portfolio_id>4940000000401053</object_portfolio_id>
+    <target_id>4940000000000057</target_id>
+    <interface_id>2400000000000006</interface_id>
+    <interface_name>PROQUEST</interface_name>
+    <target_service_id>4940000000000057</target_service_id>
+    <service_type>getFullTxt</service_type>
+    <parser>PROQUEST::open</parser>
+    <parse_param>url=https://gateway.proquest.com/openurl &amp; clientid=14657 &amp; url2=https://www.proquest.com&amp;jkey=36600</parse_param>
+    <proxy>no</proxy>
+    <crossref>no</crossref>
+    <timediff_warning></timediff_warning>
+    <note></note>
+    <authentication></authentication>
+    <char_set>iso-8859-1</char_set>
+    <displayer>FT::NO_FILL_IN</displayer>
+    <target_url>https://gateway.proquest.com/openurl?spage=2029&amp;req_dat=xri%3Apqil%3Aclntid%3D14657&amp;date=2021-04-02&amp;issn=0039-7857&amp;jtitle=Synthese&amp;url_ver=Z39.88-2004&amp;res_dat=xri%3Apqm&amp;genre=article&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Aarticle&amp;volume=198</target_url>
+    <is_related>no</is_related>
+    <coverage>
+     <coverage_text>
+      <threshold_text>
+       <coverage_statement>Available from 1997/01/01 volume: 110 issue: 1</coverage_statement>
+      </threshold_text>
+      <embargo_text>
+       <embargo_statement>Most recent 1 year(s) not available</embargo_statement>
+      </embargo_text>
+     </coverage_text>
+     <from>
+      <year>1997</year>
+      <month>01</month>
+      <day>01</day>
+      <volume>110</volume>
+      <issue>1</issue>
+     </from>
+     <embargo>
+      <availability>not_available</availability>
+      <year>1</year>
+      <days>365</days>
+     </embargo>
+    </coverage>
+   </target>
+   <target>
+    <target_name>UNPAYWALL</target_name>
+    <target_public_name>Unpaywall</target_public_name>
+    <object_portfolio_id></object_portfolio_id>
+    <target_id>3460000000000033</target_id>
+    <interface_id>3460000000000033</interface_id>
+    <interface_name>UNPAYWALL</interface_name>
+    <target_service_id>3460000000000033</target_service_id>
+    <service_type>getFullTxt</service_type>
+    <parser>OADOI::oadoi</parser>
+    <parse_param>url=http://api.unpaywall.org/v2/ &amp; timeout=5 &amp; email=eresources@lib.uchicago.edu</parse_param>
+    <proxy>no</proxy>
+    <crossref>yes</crossref>
+    <timediff_warning></timediff_warning>
+    <note></note>
+    <authentication></authentication>
+    <char_set>iso-8859-1</char_set>
+    <displayer></displayer>
+    <target_url>https://link.springer.com/content/pdf/10.1007%2Fs11229-018-1751-6.pdf</target_url>
+    <is_related>no</is_related>
+    <coverage>
+     <coverage_text>
+      <threshold_text></threshold_text>
+      <embargo_text></embargo_text>
+     </coverage_text>
+     <embargo></embargo>
+    </coverage>
+   </target>
+   <target>
+    <target_name>LOCAL_CATALOGUE_VUFIND_LCL</target_name>
+    <target_public_name>The University of Chicago Library Catalog</target_public_name>
+    <object_portfolio_id></object_portfolio_id>
+    <target_id>10330000000000047</target_id>
+    <interface_id>10330000000000047</interface_id>
+    <interface_name>LOCAL_CATALOGUE_VUFIND</interface_name>
+    <target_service_id>10330000000000051</target_service_id>
+    <service_type>getHolding</service_type>
+    <parser>VUFIND::vufind</parser>
+    <parse_param>url=http://catalog.lib.uchicago.edu/vufind</parse_param>
+    <proxy>no</proxy>
+    <crossref>no</crossref>
+    <timediff_warning></timediff_warning>
+    <note></note>
+    <authentication></authentication>
+    <char_set>utf8</char_set>
+    <displayer></displayer>
+    <target_url>http://catalog.lib.uchicago.edu/vufind/Search/Results?submit=Find&amp;type=StandardNumbers&amp;lookfor=0039-7857</target_url>
+    <is_related>no</is_related>
+    <coverage>
+     <coverage_text>
+      <threshold_text></threshold_text>
+      <embargo_text></embargo_text>
+     </coverage_text>
+     <embargo></embargo>
+    </coverage>
+   </target>
+   <target>
+    <target_name>DOCDEL_Scan and Deliver_LCL</target_name>
+    <target_public_name>Scan and Deliver</target_public_name>
+    <object_portfolio_id></object_portfolio_id>
+    <target_id>10330000000000030</target_id>
+    <interface_id>10330000000000030</interface_id>
+    <interface_name>DOCDEL_Scan and Deliver</interface_name>
+    <target_service_id>10330000000000034</target_service_id>
+    <service_type>getHolding</service_type>
+    <parser>ILLiad::DDL4</parser>
+    <parse_param>url=https://requests.lib.uchicago.edu/illiad/illiad.dll/OpenURL</parse_param>
+    <proxy>yes</proxy>
+    <crossref>yes</crossref>
+    <timediff_warning></timediff_warning>
+    <note>Get UChicago-owned articles and book chapters scanned and posted electronically.</note>
+    <authentication></authentication>
+    <char_set>utf8</char_set>
+    <displayer></displayer>
+    <target_url>https://proxy-redirector.lib.uchicago.edu/login?url=https%3A%2F%2Frequests.lib.uchicago.edu%2Filliad%2Filliad.dll%2FOpenURL%3Fspage%3D2029%26atitle%3DTaming%2520the%2520runabout%2520imagination%2520ticket.%26date%3D2021-04%26epage%3D2043%26volume%3D198%26genre%3Ddocdel%26issn%3D0039-7857%26title%3DSynthese%26sid%3DEBSCO%253AComplementary%2520Index%253A150003317%2520%28via%2520SFX%29</target_url>
+    <is_related>no</is_related>
+    <coverage>
+     <coverage_text>
+      <threshold_text></threshold_text>
+      <embargo_text></embargo_text>
+     </coverage_text>
+     <embargo></embargo>
+    </coverage>
+   </target>
+   <target>
+    <target_name>LOCAL_CATALOG_BORROWDIRECT_LCL</target_name>
+    <target_public_name>Search Borrow Direct Catalog</target_public_name>
+    <object_portfolio_id></object_portfolio_id>
+    <target_id>10330000000000032</target_id>
+    <interface_id>10330000000000032</interface_id>
+    <interface_name>LOCAL_CATALOG_BORROWDIRECT</interface_name>
+    <target_service_id>10330000000000036</target_service_id>
+    <service_type>getDocumentDelivery</service_type>
+    <parser>BORROWDIRECT::BORROWDIRECT</parser>
+    <parse_param>url=https://www.lib.uchicago.edu/e/we-includes/search_main/index_t_catalogs_borrowdirect.php</parse_param>
+    <proxy>yes</proxy>
+    <crossref>no</crossref>
+    <timediff_warning></timediff_warning>
+    <note>Get it from Ivy League and MIT libraries in approximately 4-5 days.</note>
+    <authentication></authentication>
+    <char_set>utf8</char_set>
+    <displayer></displayer>
+    <target_url></target_url>
+    <is_related>no</is_related>
+    <coverage>
+     <coverage_text>
+      <threshold_text></threshold_text>
+      <embargo_text></embargo_text>
+     </coverage_text>
+     <embargo></embargo>
+    </coverage>
+   </target>
+   <target>
+    <target_name>LOCAL_CATALOG_UBORROW_LCL</target_name>
+    <target_public_name>Search Uborrow Catalog</target_public_name>
+    <object_portfolio_id></object_portfolio_id>
+    <target_id>10330000000000029</target_id>
+    <interface_id>10330000000000029</interface_id>
+    <interface_name>LOCAL_CATALOG_UBORROW</interface_name>
+    <target_service_id>10330000000000033</target_service_id>
+    <service_type>getDocumentDelivery</service_type>
+    <parser>UBORROW::UBORROW</parser>
+    <parse_param>url=http://uborrow.relaisd2d.com/service-proxy</parse_param>
+    <proxy>yes</proxy>
+    <crossref>no</crossref>
+    <timediff_warning></timediff_warning>
+    <note>Get it from Big Ten university libraries in approximately 4-5 days.</note>
+    <authentication></authentication>
+    <char_set>utf8</char_set>
+    <displayer></displayer>
+    <target_url></target_url>
+    <is_related>no</is_related>
+    <coverage>
+     <coverage_text>
+      <threshold_text></threshold_text>
+      <embargo_text></embargo_text>
+     </coverage_text>
+     <embargo></embargo>
+    </coverage>
+   </target>
+   <target>
+    <target_name>DOCDEL_ILLIAD_PC_LOCAL_LCL</target_name>
+    <target_public_name>Interlibrary Loan</target_public_name>
+    <object_portfolio_id></object_portfolio_id>
+    <target_id>10330000000000012</target_id>
+    <interface_id>10330000000000012</interface_id>
+    <interface_name>DOCDEL_ILLIAD_PC_LOCAL</interface_name>
+    <target_service_id>10330000000000013</target_service_id>
+    <service_type>getDocumentDelivery</service_type>
+    <parser>ILLiad::DDL3</parser>
+    <parse_param>url=https://requests.lib.uchicago.edu/illiad/illiad.dll/OpenURL</parse_param>
+    <proxy>yes</proxy>
+    <crossref>yes</crossref>
+    <timediff_warning></timediff_warning>
+    <note>Get it from other libraries. Delivery time varies.</note>
+    <authentication></authentication>
+    <char_set>utf8</char_set>
+    <displayer></displayer>
+    <target_url>https://proxy-redirector.lib.uchicago.edu/login?url=https%3A%2F%2Frequests.lib.uchicago.edu%2Filliad%2Filliad.dll%2FOpenURL%3Fissn%3D0039-7857%26sid%3DEBSCO%253AComplementary%2520Index%253A150003317%2520%28via%2520SFX%29%26title%3DSynthese%26atitle%3DTaming%2520the%2520runabout%2520imagination%2520ticket.%26spage%3D2029%26date%3D2021-04%26genre%3Darticle%26epage%3D2043%26volume%3D198</target_url>
+    <is_related>no</is_related>
+    <coverage>
+     <coverage_text>
+      <threshold_text></threshold_text>
+      <embargo_text></embargo_text>
+     </coverage_text>
+     <embargo></embargo>
+    </coverage>
+   </target>
+   <target>
+    <target_name>LOCAL_FEEDBACK</target_name>
+    <target_public_name>Contact Us</target_public_name>
+    <object_portfolio_id></object_portfolio_id>
+    <target_id>111000147718000</target_id>
+    <interface_id>111000147718000</interface_id>
+    <interface_name>LOCAL_FEEDBACK</interface_name>
+    <target_service_id>111000147718001</target_service_id>
+    <service_type>getWebService</service_type>
+    <parser>FEEDBACK::FEEDBACK</parser>
+    <parse_param>url=http://sfx.lib.uchicago.edu:3002/sfx_local/cgi/public/feedback.cgi &amp;
+email=sfx@lib.uchicago.edu
+</parse_param>
+    <proxy>yes</proxy>
+    <crossref>no</crossref>
+    <timediff_warning></timediff_warning>
+    <note></note>
+    <authentication></authentication>
+    <char_set>UTF8</char_set>
+    <displayer></displayer>
+    <target_url>https://proxy-redirector.lib.uchicago.edu/login?url=http%3A%2F%2Fsfx.lib.uchicago.edu%3A3002%2Fsfx_local%2Fcgi%2Fpublic%2Ffeedback.cgi%3Fpublisher%3DHybrid%26genre%3Darticle%26volume%3D198%26year%3D2021%26journal%3DSynthese%26source%3DEBSCO%2B%28Via%2BSFX%29%26em%3Dsfx%2540lib.uchicago.edu%26openurl%3Dhttps%253A%252F%252Fsfx.lib.uchicago.edu%252Fsfx_local%253Fsfx.response_type%253Dmulti_obj_detailed_xml%2526ID%253Ddoi%25253A10.1007%25252Fs11229-018-1751-6%2526genre%253Darticle%2526atitle%253DTaming%252520the%252520runabout%252520imagination%252520ticket.%2526title%253DSynthese%2526issn%253D00397857%2526isbn%253D%2526volume%253D198%2526issue%253D%2526date%253D20210402%2526au%253DBerto%25252C%252520Francesco%2526spage%253D2029%2526pages%253D2029-2043%2526sid%253DEBSCO%25253AComplementary%252520Index%25253A150003317%26month%3D4%26sid%3DEBSCO%253AComplementary%2BIndex%253A150003317%26day%3D2%26articlet%3DTaming%2Bthe%2Brunabout%2Bimagination%2Bticket.%26issn%3D0039-7857%26pages%3D2029-2043%26publiplace%3DNETHERLANDS</target_url>
+    <is_related>no</is_related>
+    <coverage>
+     <coverage_text>
+      <threshold_text></threshold_text>
+      <embargo_text></embargo_text>
+     </coverage_text>
+     <embargo></embargo>
+    </coverage>
+   </target>
+   <target>
+    <target_name>COPYRIGHT_CLEARANCE_CENTER</target_name>
+    <target_public_name>Copyright Clearance Center</target_public_name>
+    <object_portfolio_id></object_portfolio_id>
+    <target_id>111069881052000</target_id>
+    <interface_id>111069881052000</interface_id>
+    <interface_name>COPYRIGHT_CLEARANCE_CENTER</interface_name>
+    <target_service_id>111069881052001</target_service_id>
+    <service_type>getWebService</service_type>
+    <parser>CCC::CCC</parser>
+    <parse_param>username=crerar&amp;
+password=jrl002&amp;
+type=TRS&amp;
+url=https://www.copyright.com/CCCDirect</parse_param>
+    <proxy>no</proxy>
+    <crossref>no</crossref>
+    <timediff_warning></timediff_warning>
+    <note></note>
+    <authentication></authentication>
+    <char_set></char_set>
+    <displayer></displayer>
+    <target_url></target_url>
+    <is_related>no</is_related>
+    <coverage>
+     <coverage_text>
+      <threshold_text></threshold_text>
+      <embargo_text></embargo_text>
+     </coverage_text>
+     <embargo></embargo>
+    </coverage>
+   </target>
+   <target>
+    <target_name>GOOGLE_SCHOLAR_FREE</target_name>
+    <target_public_name>Google Scholar</target_public_name>
+    <object_portfolio_id></object_portfolio_id>
+    <target_id>1000000000000009</target_id>
+    <interface_id>1000000000001761</interface_id>
+    <interface_name>GOOGLE</interface_name>
+    <target_service_id>1000000000000009</target_service_id>
+    <service_type>getWebSearch</service_type>
+    <parser>GoogleScholar::Search</parser>
+    <parse_param></parse_param>
+    <proxy>yes</proxy>
+    <crossref>no</crossref>
+    <timediff_warning></timediff_warning>
+    <note></note>
+    <authentication></authentication>
+    <char_set>iso-8859-1</char_set>
+    <displayer>GoogleScholar::Search</displayer>
+    <target_url></target_url>
+    <is_related>no</is_related>
+    <coverage>
+     <coverage_text>
+      <threshold_text></threshold_text>
+      <embargo_text></embargo_text>
+     </coverage_text>
+     <embargo></embargo>
+    </coverage>
+   </target>
+  </ctx_obj_targets>
+ </ctx_obj>
+</ctx_obj_set>
