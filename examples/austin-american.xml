@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ctx_obj_set>
+ <ctx_obj identifier="">
+  <ctx_obj_attributes>&lt;perldata&gt;
+ &lt;hash&gt;
+  &lt;item key="sfx.sid"&gt;sfxit.com:journalsearch&lt;/item&gt;
+  &lt;item key="sfx.openurl"&gt;https://sfx.lib.uchicago.edu/sfx_local?sfx.response_type=multi_obj_detailed_xml&amp;amp;url_ver=Z39.88-2004&amp;amp;url_ctx_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Actx&amp;amp;ctx_enc=info%3Aofi%2Fenc%3AUTF-8&amp;amp;ctx_ver=Z39.88-2004&amp;amp;rfr_id=info%3Asid%2Fsfxit.com%3Ajournalsearch&amp;amp;sfx.ignore_date_threshold=1&amp;amp;rft.object_id=4220000000000152&lt;/item&gt;
+  &lt;item key="sfx.ignore_date_threshold"&gt;1&lt;/item&gt;
+  &lt;item key="@rfr_id"&gt;
+   &lt;array&gt;
+    &lt;item key="0"&gt;info:sid/sfxit.com:journalsearch&lt;/item&gt;
+   &lt;/array&gt;
+  &lt;/item&gt;
+  &lt;item key="existing_ts_ids"&gt;
+   &lt;array&gt;
+    &lt;item key="0"&gt;10330000000000051&lt;/item&gt;
+    &lt;item key="1"&gt;10330000000000034&lt;/item&gt;
+    &lt;item key="2"&gt;111000147718001&lt;/item&gt;
+    &lt;item key="3"&gt;10330000000000033&lt;/item&gt;
+    &lt;item key="4"&gt;10330000000000013&lt;/item&gt;
+    &lt;item key="5"&gt;111069881052001&lt;/item&gt;
+    &lt;item key="6"&gt;10330000000000036&lt;/item&gt;
+    &lt;item key="7"&gt;3780000000001245&lt;/item&gt;
+    &lt;item key="8"&gt;4340000000000199&lt;/item&gt;
+   &lt;/array&gt;
+  &lt;/item&gt;
+  &lt;item key="ctx_enc"&gt;UTF-8&lt;/item&gt;
+  &lt;item key="sfx.request_id"&gt;54823445&lt;/item&gt;
+  &lt;item key="@rft_id"&gt;
+   &lt;array&gt;
+   &lt;/array&gt;
+  &lt;/item&gt;
+  &lt;item key="rft.title"&gt;The Austin American&lt;/item&gt;
+  &lt;item key="sfx.response_type"&gt;multi_obj_detailed_xml&lt;/item&gt;
+  &lt;item key="rfr.rfr"&gt;sfxit.com:journalsearch&lt;/item&gt;
+  &lt;item key="rft.genre"&gt;journal&lt;/item&gt;
+  &lt;item key="req.session_id"&gt;sDD6556B0-F195-11F0-9CFE-1D1B38CD4086&lt;/item&gt;
+  &lt;item key="@rfe_id"&gt;
+   &lt;array&gt;
+   &lt;/array&gt;
+  &lt;/item&gt;
+  &lt;item key="rft.pub"&gt;CMG Corporate Services, Inc. on behalf of itself and the Newspapers&lt;/item&gt;
+  &lt;item key="rft.place"&gt;UNITED STATES&lt;/item&gt;
+  &lt;item key="sfx.has_full_text"&gt;yes&lt;/item&gt;
+  &lt;item key="rft.eissn"&gt;2473-5450&lt;/item&gt;
+  &lt;item key="@req.institutes"&gt;
+   &lt;array&gt;
+    &lt;item key="0"&gt;Staff&lt;/item&gt;
+   &lt;/array&gt;
+  &lt;/item&gt;
+  &lt;item key="rft.object_type"&gt;JOURNAL&lt;/item&gt;
+  &lt;item key="url_ctx_fmt"&gt;info:ofi/fmt:kev:mtx:ctx&lt;/item&gt;
+  &lt;item key="ctx_ver"&gt;Z39.88-2004&lt;/item&gt;
+  &lt;item key="_stash"&gt;
+   &lt;hash&gt;
+    &lt;item key="@rfr_id"&gt;
+     &lt;array&gt;
+      &lt;item key="0"&gt;info:sid/sfxit.com:journalsearch&lt;/item&gt;
+     &lt;/array&gt;
+    &lt;/item&gt;
+   &lt;/hash&gt;
+  &lt;/item&gt;
+  &lt;item key="rft.language"&gt;eng&lt;/item&gt;
+  &lt;item key="rft.object_id"&gt;4220000000000152&lt;/item&gt;
+  &lt;item key="url_ver"&gt;Z39.88-2004&lt;/item&gt;
+  &lt;item key="sfx.ignore_char_set"&gt;1&lt;/item&gt;
+  &lt;item key="sfx.show_availability"&gt;1&lt;/item&gt;
+  &lt;item key="rft.jtitle"&gt;The Austin American&lt;/item&gt;
+ &lt;/hash&gt;
+&lt;/perldata&gt;
+</ctx_obj_attributes>
+  <ctx_obj_targets>
+   <target>
+    <target_name>NEWSPAPERARCHIVE_COM</target_name>
+    <target_public_name>NewspaperARCHIVE.com</target_public_name>
+    <object_portfolio_id>3780000001123627</object_portfolio_id>
+    <target_id>3780000000001293</target_id>
+    <interface_id>3780000000001293</interface_id>
+    <interface_name>NEWSPAPERARCHIVE_COM</interface_name>
+    <target_service_id>3780000000001245</target_service_id>
+    <service_type>getFullTxt</service_type>
+    <parser>Bulk::BULK</parser>
+    <parse_param>jkey=https://access.newspaperarchive.com/us/texas/austin/austin-american/</parse_param>
+    <proxy>yes</proxy>
+    <crossref>no</crossref>
+    <timediff_warning></timediff_warning>
+    <note></note>
+    <authentication></authentication>
+    <char_set>iso-8859-1</char_set>
+    <displayer></displayer>
+    <target_url>https://proxy-redirector.lib.uchicago.edu/login?url=https%3A%2F%2Faccess.newspaperarchive.com%2Fus%2Ftexas%2Faustin%2Faustin-american%2F</target_url>
+    <is_related>no</is_related>
+    <coverage>
+     <coverage_text>
+      <threshold_text>
+       <coverage_statement>Available from 1948  until 1951</coverage_statement>
+      </threshold_text>
+      <embargo_text></embargo_text>
+     </coverage_text>
+     <from>
+      <year>1948</year>
+     </from>
+     <to>
+      <year>1951</year>
+     </to>
+     <embargo></embargo>
+    </coverage>
+   </target>
+   <target>
+    <target_name>PROQUEST_HISTORICAL_NEWSPAPERS_THE_AUSTIN_AMERICAN_STATESMAN</target_name>
+    <target_public_name>ProQuest Historical Newspapers: The Austin American Statesman</target_public_name>
+    <object_portfolio_id>4340000000758038</object_portfolio_id>
+    <target_id>4340000000000183</target_id>
+    <interface_id>2400000000000006</interface_id>
+    <interface_name>PROQUEST</interface_name>
+    <target_service_id>4340000000000199</target_service_id>
+    <service_type>getFullTxt</service_type>
+    <parser>PROQUEST::open</parser>
+    <parse_param>url=https://gateway.proquest.com/openurl &amp; clientid= &amp; url2=https://www.proquest.com&amp;jkey=2030542</parse_param>
+    <proxy>yes</proxy>
+    <crossref>no</crossref>
+    <timediff_warning></timediff_warning>
+    <note></note>
+    <authentication></authentication>
+    <char_set>iso-8859-1</char_set>
+    <displayer></displayer>
+    <target_url>https://proxy-redirector.lib.uchicago.edu/login?url=https%3A%2F%2Fgateway.proquest.com%2Fopenurl%3Frft_val_fmt%3Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Ajournal%26rft_id%3D2030542%26rfr_id%3Dinfo%253Axri%252Fsid%253AAlma%26res_dat%3Dxri%253Apqm%26genre%3Djournal%26url_ver%3DZ39.88-2004</target_url>
+    <is_related>no</is_related>
+    <coverage>
+     <coverage_text>
+      <threshold_text>
+       <coverage_statement>Available from 1924/12/07  until 1967/12/31</coverage_statement>
+      </threshold_text>
+      <embargo_text></embargo_text>
+     </coverage_text>
+     <from>
+      <year>1924</year>
+      <month>12</month>
+      <day>07</day>
+     </from>
+     <to>
+      <year>1967</year>
+      <month>12</month>
+      <day>31</day>
+     </to>
+     <embargo></embargo>
+    </coverage>
+   </target>
+   <target>
+    <target_name>LOCAL_CATALOGUE_VUFIND_LCL</target_name>
+    <target_public_name>The University of Chicago Library Catalog</target_public_name>
+    <object_portfolio_id></object_portfolio_id>
+    <target_id>10330000000000047</target_id>
+    <interface_id>10330000000000047</interface_id>
+    <interface_name>LOCAL_CATALOGUE_VUFIND</interface_name>
+    <target_service_id>10330000000000051</target_service_id>
+    <service_type>getHolding</service_type>
+    <parser>VUFIND::vufind</parser>
+    <parse_param>url=http://catalog.lib.uchicago.edu/vufind</parse_param>
+    <proxy>no</proxy>
+    <crossref>no</crossref>
+    <timediff_warning></timediff_warning>
+    <note></note>
+    <authentication></authentication>
+    <char_set>utf8</char_set>
+    <displayer></displayer>
+    <target_url>http://catalog.lib.uchicago.edu/vufind/Search/Results?submit=Find&amp;type=StandardNumbers&amp;lookfor=2473-5450</target_url>
+    <is_related>no</is_related>
+    <coverage>
+     <coverage_text>
+      <threshold_text></threshold_text>
+      <embargo_text></embargo_text>
+     </coverage_text>
+     <embargo></embargo>
+    </coverage>
+   </target>
+   <target>
+    <target_name>DOCDEL_Scan and Deliver_LCL</target_name>
+    <target_public_name>Scan and Deliver</target_public_name>
+    <object_portfolio_id></object_portfolio_id>
+    <target_id>10330000000000030</target_id>
+    <interface_id>10330000000000030</interface_id>
+    <interface_name>DOCDEL_Scan and Deliver</interface_name>
+    <target_service_id>10330000000000034</target_service_id>
+    <service_type>getHolding</service_type>
+    <parser>ILLiad::DDL4</parser>
+    <parse_param>url=https://requests.lib.uchicago.edu/illiad/illiad.dll/OpenURL</parse_param>
+    <proxy>yes</proxy>
+    <crossref>yes</crossref>
+    <timediff_warning></timediff_warning>
+    <note>Get UChicago-owned articles and book chapters scanned and posted electronically.</note>
+    <authentication></authentication>
+    <char_set>utf8</char_set>
+    <displayer></displayer>
+    <target_url>https://proxy-redirector.lib.uchicago.edu/login?url=https%3A%2F%2Frequests.lib.uchicago.edu%2Filliad%2Filliad.dll%2FOpenURL%3Fgenre%3Ddocdel%26issn%3D2473-5450%26title%3DThe%2520Austin%2520American%26sid%3Dsfxit.com%253Ajournalsearch%2520%28via%2520SFX%29</target_url>
+    <is_related>no</is_related>
+    <coverage>
+     <coverage_text>
+      <threshold_text></threshold_text>
+      <embargo_text></embargo_text>
+     </coverage_text>
+     <embargo></embargo>
+    </coverage>
+   </target>
+   <target>
+    <target_name>LOCAL_CATALOG_BORROWDIRECT_LCL</target_name>
+    <target_public_name>Search Borrow Direct Catalog</target_public_name>
+    <object_portfolio_id></object_portfolio_id>
+    <target_id>10330000000000032</target_id>
+    <interface_id>10330000000000032</interface_id>
+    <interface_name>LOCAL_CATALOG_BORROWDIRECT</interface_name>
+    <target_service_id>10330000000000036</target_service_id>
+    <service_type>getDocumentDelivery</service_type>
+    <parser>BORROWDIRECT::BORROWDIRECT</parser>
+    <parse_param>url=https://www.lib.uchicago.edu/e/we-includes/search_main/index_t_catalogs_borrowdirect.php</parse_param>
+    <proxy>yes</proxy>
+    <crossref>no</crossref>
+    <timediff_warning></timediff_warning>
+    <note>Get it from Ivy League and MIT libraries in approximately 4-5 days.</note>
+    <authentication></authentication>
+    <char_set>utf8</char_set>
+    <displayer></displayer>
+    <target_url></target_url>
+    <is_related>no</is_related>
+    <coverage>
+     <coverage_text>
+      <threshold_text></threshold_text>
+      <embargo_text></embargo_text>
+     </coverage_text>
+     <embargo></embargo>
+    </coverage>
+   </target>
+   <target>
+    <target_name>LOCAL_CATALOG_UBORROW_LCL</target_name>
+    <target_public_name>Search Uborrow Catalog</target_public_name>
+    <object_portfolio_id></object_portfolio_id>
+    <target_id>10330000000000029</target_id>
+    <interface_id>10330000000000029</interface_id>
+    <interface_name>LOCAL_CATALOG_UBORROW</interface_name>
+    <target_service_id>10330000000000033</target_service_id>
+    <service_type>getDocumentDelivery</service_type>
+    <parser>UBORROW::UBORROW</parser>
+    <parse_param>url=http://uborrow.relaisd2d.com/service-proxy</parse_param>
+    <proxy>yes</proxy>
+    <crossref>no</crossref>
+    <timediff_warning></timediff_warning>
+    <note>Get it from Big Ten university libraries in approximately 4-5 days.</note>
+    <authentication></authentication>
+    <char_set>utf8</char_set>
+    <displayer></displayer>
+    <target_url></target_url>
+    <is_related>no</is_related>
+    <coverage>
+     <coverage_text>
+      <threshold_text></threshold_text>
+      <embargo_text></embargo_text>
+     </coverage_text>
+     <embargo></embargo>
+    </coverage>
+   </target>
+   <target>
+    <target_name>DOCDEL_ILLIAD_PC_LOCAL_LCL</target_name>
+    <target_public_name>Interlibrary Loan</target_public_name>
+    <object_portfolio_id></object_portfolio_id>
+    <target_id>10330000000000012</target_id>
+    <interface_id>10330000000000012</interface_id>
+    <interface_name>DOCDEL_ILLIAD_PC_LOCAL</interface_name>
+    <target_service_id>10330000000000013</target_service_id>
+    <service_type>getDocumentDelivery</service_type>
+    <parser>ILLiad::DDL3</parser>
+    <parse_param>url=https://requests.lib.uchicago.edu/illiad/illiad.dll/OpenURL</parse_param>
+    <proxy>yes</proxy>
+    <crossref>yes</crossref>
+    <timediff_warning></timediff_warning>
+    <note>Get it from other libraries. Delivery time varies.</note>
+    <authentication></authentication>
+    <char_set>utf8</char_set>
+    <displayer></displayer>
+    <target_url>https://proxy-redirector.lib.uchicago.edu/login?url=https%3A%2F%2Frequests.lib.uchicago.edu%2Filliad%2Filliad.dll%2FOpenURL%3Fgenre%3Darticle%26sid%3Dsfxit.com%253Ajournalsearch%2520%28via%2520SFX%29%26title%3DThe%2520Austin%2520American%26issn%3D2473-5450</target_url>
+    <is_related>no</is_related>
+    <coverage>
+     <coverage_text>
+      <threshold_text></threshold_text>
+      <embargo_text></embargo_text>
+     </coverage_text>
+     <embargo></embargo>
+    </coverage>
+   </target>
+   <target>
+    <target_name>LOCAL_FEEDBACK</target_name>
+    <target_public_name>Contact Us</target_public_name>
+    <object_portfolio_id></object_portfolio_id>
+    <target_id>111000147718000</target_id>
+    <interface_id>111000147718000</interface_id>
+    <interface_name>LOCAL_FEEDBACK</interface_name>
+    <target_service_id>111000147718001</target_service_id>
+    <service_type>getWebService</service_type>
+    <parser>FEEDBACK::FEEDBACK</parser>
+    <parse_param>url=http://sfx.lib.uchicago.edu:3002/sfx_local/cgi/public/feedback.cgi &amp;
+email=sfx@lib.uchicago.edu
+</parse_param>
+    <proxy>yes</proxy>
+    <crossref>no</crossref>
+    <timediff_warning></timediff_warning>
+    <note></note>
+    <authentication></authentication>
+    <char_set>UTF8</char_set>
+    <displayer></displayer>
+    <target_url>https://proxy-redirector.lib.uchicago.edu/login?url=http%3A%2F%2Fsfx.lib.uchicago.edu%3A3002%2Fsfx_local%2Fcgi%2Fpublic%2Ffeedback.cgi%3Fissn%3D2473-5450%26publiplace%3DUNITED%2BSTATES%26sid%3Dsfxit.com%253Ajournalsearch%26em%3Dsfx%2540lib.uchicago.edu%26openurl%3Dhttps%253A%252F%252Fsfx.lib.uchicago.edu%252Fsfx_local%253Fsfx.response_type%253Dmulti_obj_detailed_xml%2526url_ver%253DZ39.88-2004%2526url_ctx_fmt%253Dinfo%25253Aofi%25252Ffmt%25253Akev%25253Amtx%25253Actx%2526ctx_enc%253Dinfo%25253Aofi%25252Fenc%25253AUTF-8%2526ctx_ver%253DZ39.88-2004%2526rfr_id%253Dinfo%25253Asid%25252Fsfxit.com%25253Ajournalsearch%2526sfx.ignore_date_threshold%253D1%2526rft.object_id%253D4220000000000152%26journal%3DThe%2BAustin%2BAmerican%26genre%3Darticle%26publisher%3DCMG%2BCorporate%2BServices%252C%2BInc.%2Bon%2Bbehalf%2Bof%2Bitself%2Band%2Bthe%2BNewspapers</target_url>
+    <is_related>no</is_related>
+    <coverage>
+     <coverage_text>
+      <threshold_text></threshold_text>
+      <embargo_text></embargo_text>
+     </coverage_text>
+     <embargo></embargo>
+    </coverage>
+   </target>
+   <target>
+    <target_name>COPYRIGHT_CLEARANCE_CENTER</target_name>
+    <target_public_name>Copyright Clearance Center</target_public_name>
+    <object_portfolio_id></object_portfolio_id>
+    <target_id>111069881052000</target_id>
+    <interface_id>111069881052000</interface_id>
+    <interface_name>COPYRIGHT_CLEARANCE_CENTER</interface_name>
+    <target_service_id>111069881052001</target_service_id>
+    <service_type>getWebService</service_type>
+    <parser>CCC::CCC</parser>
+    <parse_param>username=crerar&amp;
+password=jrl002&amp;
+type=TRS&amp;
+url=https://www.copyright.com/CCCDirect</parse_param>
+    <proxy>no</proxy>
+    <crossref>no</crossref>
+    <timediff_warning></timediff_warning>
+    <note></note>
+    <authentication></authentication>
+    <char_set></char_set>
+    <displayer></displayer>
+    <target_url></target_url>
+    <is_related>no</is_related>
+    <coverage>
+     <coverage_text>
+      <threshold_text></threshold_text>
+      <embargo_text></embargo_text>
+     </coverage_text>
+     <embargo></embargo>
+    </coverage>
+   </target>
+  </ctx_obj_targets>
+ </ctx_obj>
+</ctx_obj_set>
