@@ -1,6 +1,7 @@
 # articlelink            -*- makefile-gmake -*-
 # GNUmakefile
 
+PNAME = articlelink
 DISPLAY = short
 DUNE = opam exec -- dune $1 --display $(DISPLAY)
 
@@ -31,11 +32,11 @@ dune-install: build
 .PHONY: install
 
 dev-install: dune-install
-	install -m 555 $(OPAM_SWITCH_PREFIX)/bin/articlelink ~/bin
+	install -m 555 $(OPAM_SWITCH_PREFIX)/bin/$(PNAME) ~/bin
 .PHONY: home-install
 
 dev-uninstall: 
-	$(RM) ~/bin/articlelink
+	$(RM) ~/bin/$(PNAME)
 .PHONY: home-install
 
 mounts:
@@ -43,9 +44,18 @@ mounts:
 .PHONY: mounts
 
 publish: build mounts
-	echo 'url { src:' $$(cat articlelink.opam | grep dev-repo | awk '{ print $$2 }') '}' >> articlelink.opam
-	make -C /data/web/dldc/opam add NAME=articlelink OPAM=$$PWD/articlelink.opam
+	echo 'url { src:' $$(cat articlelink.opam | grep dev-repo | awk '{ print $$2 }') '}' >> $(PNAME).opam
+	make -C /data/web/dldc/opam add NAME=$(PNAME) OPAM=$$PWD/$(PNAME).opam
 .PHONY: publish
+
+cgi:
+	$(call DUNE, build)
+	install -m 555 $(PWD)/_build/default/app/$(PNAME).exe $(PWD)/cgi-bin/$(PNAME)
+.PHONY: cgi
+
+serve:
+	althttpd -root $(PWD)/cgi-bin -port 3000
+.PHONY: serve
 
 # Local Variables:
 # mode: makefile-gmake
