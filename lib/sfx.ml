@@ -1,7 +1,3 @@
-let list_to_result = function
-  | [] -> Error "bad SFX xml"
-  | x :: _ -> Ok x
-
 let xml_to_targets xml_string =
   xml_string
   |> Ezxmlm.from_string
@@ -11,28 +7,28 @@ let xml_to_targets xml_string =
   |> Ezxmlm.member "ctx_obj_targets"
   |> Ezxmlm.members "target"
 
-let get_info node =
-  Ezxmlm.members "service_type" node |> List.map Ezxmlm.data_to_string ,
-  String.concat "" @@ List.map Ezxmlm.data_to_string (Ezxmlm.members "target_public_name" node) ,
-  String.concat "" @@ List.map Ezxmlm.data_to_string (Ezxmlm.members "target_url" node)
+let retrieve_unique field_name target =
+  target
+  |> Ezxmlm.members field_name
+  |> List.map Ezxmlm.data_to_string
+  |> String.concat ""
+
+let get_info target =
+  retrieve_unique "service_type" target ,
+  retrieve_unique "target_public_name" target ,
+  retrieve_unique "target_url" target
 
 let get_link xml_string =
-  let get_info node =
-    Ezxmlm.members "service_type" node
-    |> List.map Ezxmlm.data_to_string, Ezxmlm.members "target_url" node
-  in Ezxmlm.from_string xml_string
-     |> snd
-     |> Ezxmlm.member "ctx_obj_set"
-     |> Ezxmlm.member "ctx_obj"
-     |> Ezxmlm.member "ctx_obj_targets"
-     |> Ezxmlm.members "target"
-     |> List.map get_info
-     |> List.filter (function ["getFullTxt"], _ -> true | _ -> false)
-     |> List.map snd
-     |> List.map List.hd
-     |> List.map Ezxmlm.data_to_string
-     |> Prelude.List.nub
-     |> list_to_result
+  let has_full_link =
+    function | "getFullTxt",_,_ -> true
+             | _ -> false
+  in
+  let shrink (_, provider, link) = (provider, link) in
+  xml_string
+  |> xml_to_targets
+  |> List.map get_info
+  |> List.filter has_full_link
+  |> List.map shrink
 
 let get_from_filepath filepath =
   let sfx_output = Prelude.readfile filepath
@@ -70,8 +66,4 @@ let findit_to_api
 let openurl_to_article findit_openurl =
   let url = findit_to_api findit_openurl in
   let xml_string_result = get_xml_string url in
-  Result.bind xml_string_result get_link
-
-let print_result = function
-  | Ok s -> print_endline s
-  | Error _ -> ()
+  Result.map get_link xml_string_result
