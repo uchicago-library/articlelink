@@ -34,7 +34,7 @@ let get_from_filepath filepath =
   let sfx_output = Prelude.readfile filepath
   in get_link sfx_output
 
-let to_sfx_curl uri_string = "curl -sL \"" ^ uri_string ^ "\""
+
 
 let get_xml_string uri_string =
   let get_body r = r.Httpr_cohttp.Response.body
@@ -62,6 +62,9 @@ let findit_to_api
   |> !Uri.with_host (Some host)
   |> !Uri.with_path path
   |> Uri.to_string
+
+let to_sfx_curl uri_string =
+  "curl -sL \"" ^ findit_to_api uri_string ^ "\""
 
 let openurl_to_article findit_openurl =
   let url = findit_to_api findit_openurl in
