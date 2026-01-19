@@ -63,8 +63,8 @@ let findit_to_api
   |> !Uri.with_path path
   |> Uri.to_string
 
-let to_sfx_curl uri_string =
-  "curl -sL \"" ^ findit_to_api uri_string ^ "\""
+let to_sfx_curl findit_openurl =
+  "curl -sL \"" ^ findit_to_api findit_openurl ^ "\""
 
 let openurl_to_article findit_openurl =
   let url = findit_to_api findit_openurl in
