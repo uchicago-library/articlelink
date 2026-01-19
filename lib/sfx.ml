@@ -2,6 +2,20 @@ let list_to_result = function
   | [] -> Error "bad SFX xml"
   | x :: _ -> Ok x
 
+let xml_to_targets xml_string =
+  xml_string
+  |> Ezxmlm.from_string
+  |> snd
+  |> Ezxmlm.member "ctx_obj_set"
+  |> Ezxmlm.member "ctx_obj"
+  |> Ezxmlm.member "ctx_obj_targets"
+  |> Ezxmlm.members "target"
+
+let get_info node =
+  Ezxmlm.members "service_type" node |> List.map Ezxmlm.data_to_string ,
+  String.concat "" @@ List.map Ezxmlm.data_to_string (Ezxmlm.members "target_public_name" node) ,
+  String.concat "" @@ List.map Ezxmlm.data_to_string (Ezxmlm.members "target_url" node)
+
 let get_link xml_string =
   let get_info node =
     Ezxmlm.members "service_type" node
