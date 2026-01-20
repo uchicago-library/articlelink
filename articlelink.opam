@@ -22,6 +22,7 @@ depends: [
   "merlin"
   "ezxmlm"
   "httpr_cohttp"
+  "data_encoding"
   "odoc" {with-doc}
 ]
 build: [

@@ -18,7 +18,8 @@
    ocp-index
    merlin
    ezxmlm
-   httpr_cohttp)
+   httpr_cohttp
+   data_encoding)
  (source (github your-username/your-repo)))
 
 ; Local Variables:

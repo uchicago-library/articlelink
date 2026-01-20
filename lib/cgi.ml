@@ -45,11 +45,19 @@ let compute =
   let open Etude.Result.Make (String) in
   function
   | Input.JSON openurl ->
-     let+ hits = Sfx.openurl_to_article openurl
+     let+ hits = Sfx.openurl_to_links openurl
      in Output.JSON hits
   | Input.JSONP (openurl, callback) ->
-     let+ hits = Sfx.openurl_to_article openurl
+     let+ hits = Sfx.openurl_to_links openurl
      in Output.JSONP (hits, callback)
   | Input.XMLDebug openurl ->
      let+ xml_string = Sfx.openurl_to_xml openurl
      in Output.XMLDebug xml_string
+
+let output_to_response =
+  let open Etude.Result.Make (String) in
+  function
+  | Output.JSON hits ->
+     Json.(hits_to_json hits |> to_string)
+  | _ -> assert false
+

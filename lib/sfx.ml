@@ -68,7 +68,7 @@ let openurl_to_xml findit_openurl =
   let url = findit_to_api findit_openurl in
   get_xml_string url
 
-let openurl_to_article findit_openurl =
+let openurl_to_links findit_openurl =
   let xml_string_result =
     openurl_to_xml findit_openurl
   in
