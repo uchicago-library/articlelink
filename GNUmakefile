@@ -3,6 +3,7 @@
 
 PNAME = articlelink
 DISPLAY = short
+DLDCREPO = /data/web/dldc/opam
 DUNE = opam exec -- dune $1 --display $(DISPLAY)
 
 build all:
@@ -43,9 +44,11 @@ mounts:
 	if mountpoint /data/web 2> /dev/null; then : ; else sudo mkdir -p /data/web && sudo mount voldemort:/export/www-legacy /data/web ; fi
 .PHONY: mounts
 
+publish: TEMP_FILE := $(shell mktemp)
 publish: build mounts
-	echo 'url { src:' $$(cat articlelink.opam | grep dev-repo | awk '{ print $$2 }') '}' >> $(PNAME).opam
-	make -C /data/web/dldc/opam add NAME=$(PNAME) OPAM=$$PWD/$(PNAME).opam
+	cat $(PNAME).opam | grep dev-repo | awk '{ print $$2 }' > $(TEMP_FILE)
+	echo 'url { src:' `cat $(TEMP_FILE)` '}' >> $(PNAME).opam
+	make -C $(DLDCREPO) add NAME=$(PNAME) OPAM=$$PWD/$(PNAME).opam
 .PHONY: publish
 
 cgi:

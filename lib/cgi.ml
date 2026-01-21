@@ -100,3 +100,7 @@ let qs_to_response qs =
   |> qs_to_input
   >>= input_to_output
   |> result_to_response
+
+let percent_encode openurl =
+  let query = ["openurl", [openurl]] in
+  Uri.encoded_of_query query
