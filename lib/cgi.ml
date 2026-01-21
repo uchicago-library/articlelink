@@ -10,7 +10,7 @@ module Input = struct
     | XMLDebug of string
 end
 
-let parse_qs qs =
+let qs_to_input qs =
   let query = Uri.query_of_encoded qs in
   let lookups =
     lookup "openurl" query ,
@@ -41,7 +41,7 @@ module Output = struct
     | XMLDebug of string
 end
 
-let compute =
+let input_to_output =
   let open Etude.Result.Make (String) in
   function
   | Input.JSON openurl ->
@@ -100,6 +100,6 @@ let result_to_response = function
 let qs_to_response qs =
   let open Etude.Result.Make (String) in
   qs
-  |> parse_qs
-  >>= compute
+  |> qs_to_input
+  >>= input_to_output
   |> result_to_response
