@@ -76,7 +76,7 @@ let create_response scode mimetype body =
                      body ;
                      crlf ; ]
 
-let result_to_response = function
+let output_to_response = function
   | Ok (Output.JSON _ as output)
     | Ok (Output.JSONP _ as output) ->
      create_response
@@ -94,13 +94,11 @@ let result_to_response = function
        "application/json"
        (Json.error_json e)
 
-let qs_to_response qs =
+let result_to_response qs_res =
   let open Etude.Result.Make (String) in
-  qs
-  |> qs_to_input
-  >>= input_to_output
-  |> result_to_response
-
-let percent_encode openurl =
-  let query = ["openurl", [openurl]] in
-  Uri.encoded_of_query query
+  let output_result =
+    qs_res
+    >>= qs_to_input
+    >>= input_to_output
+  in
+  output_to_response output_result
