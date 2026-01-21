@@ -7,7 +7,6 @@ let cgi () =
   in
   let qs_res = result_to_option qs_opt in
   print_string (Lib.Cgi.result_to_response qs_res)
-  
 
 let main () =
   match Prelude.argv with
