@@ -6,7 +6,7 @@ let cgi () =
     | None -> Error "empty query string"
   in
   let qs_res = result_to_option qs_opt in
-  print_endline (Lib.Cgi.result_to_response qs_res)
+  print_string (Lib.Cgi.result_to_response qs_res)
   
 
 let main () =
