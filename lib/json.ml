@@ -23,6 +23,8 @@ let hits_to_json hits =
          "link", `String link ]
   in `O [ "hits", `A (List.map each_hit hits) ]
 
+let hits_to_string hits =
+  hits_to_json hits |> to_string
+
 let error_json s =
-  `O ["error", `String s]
-  |> to_string
+  `O ["error", `String s] |> to_string
