@@ -54,8 +54,6 @@ let compute =
      let+ xml_string = Sfx.openurl_to_xml openurl
      in Output.XMLDebug xml_string
 
-
-(* TODO: make this pattern match on a result, and do the whole request *)
 let output_to_body =
   let open Etude.Result.Make (String) in
   let hits_to_string hits =
