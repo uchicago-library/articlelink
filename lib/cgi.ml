@@ -56,14 +56,11 @@ let input_to_output =
 
 let output_to_body =
   let open Etude.Result.Make (String) in
-  let hits_to_string hits =
-    Json.(hits_to_json hits |> to_string)
-  in
   function
   | Output.JSON hits ->
-     hits_to_string hits
+     Json.hits_to_string hits
   | Output.JSONP (hits, callback) ->
-     callback ^ "(" ^ hits_to_string hits ^ ")"
+     callback ^ "(" ^ Json.hits_to_string hits ^ ")"
   | Output.XMLDebug xml_string ->
      xml_string
 
