@@ -54,10 +54,54 @@ let compute =
      let+ xml_string = Sfx.openurl_to_xml openurl
      in Output.XMLDebug xml_string
 
-let output_to_response =
+
+(* TODO: make this pattern match on a result, and do the whole request *)
+let output_to_body =
   let open Etude.Result.Make (String) in
+  let hits_to_string hits =
+    Json.(hits_to_json hits |> to_string)
+  in
   function
   | Output.JSON hits ->
-     Json.(hits_to_json hits |> to_string)
-  | _ -> assert false
+     hits_to_string hits
+  | Output.JSONP (hits, callback) ->
+     callback ^ "(" ^ hits_to_string hits ^ ")"
+  | Output.XMLDebug xml_string ->
+     xml_string
 
+let create_response scode mimetype body =
+  let headers =
+    [ Printf.sprintf "Status: %i" scode ;
+      Printf.sprintf "Content-Type: %s" mimetype ; ]
+  in
+  let crlf = "\r\n" in
+  String.concat "" [ String.concat crlf headers ;
+                     crlf ;
+                     crlf ;
+                     body ;
+                     crlf ; ]
+
+let result_to_response = function
+  | Ok (Output.JSON _ as output)
+    | Ok (Output.JSONP _ as output) ->
+     create_response
+       200
+       "application/json"
+       (output_to_body output)
+  | Ok (Output.XMLDebug _ as output) ->
+     create_response
+       200
+       "application/xml"
+       (output_to_body output)
+  | Error e ->
+     create_response
+       400
+       "application/json"
+       (Json.error_json e)
+
+let qs_to_response qs =
+  let open Etude.Result.Make (String) in
+  qs
+  |> parse_qs
+  >>= compute
+  |> result_to_response
