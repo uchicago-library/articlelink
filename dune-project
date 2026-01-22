@@ -19,7 +19,7 @@
    merlin
    ezxmlm
    httpr_cohttp
-   data_encoding)
+   data-encoding)
  (source (github your-username/your-repo)))
 
 ; Local Variables:
