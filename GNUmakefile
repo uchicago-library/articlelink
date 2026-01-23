@@ -74,6 +74,11 @@ restful02-deploy:
 	ssh $(BSD_BUILD_HOST) "make -C $(BSD_BUILD_PATH)/$(PNAME) bsd-restful02-deploy"
 .PHONY: restful02-deploy
 
+restful02-rebuild:
+	ssh $(BSD_BUILD_HOST) "make -C $(BSD_BUILD_PATH)/$(PNAME) bsd-restful02-rebuild"
+	ssh $(BSD_BUILD_HOST) "make -C $(BSD_BUILD_PATH)/$(PNAME) bsd-restful02-deploy"
+.PHONY: restful02-rebuild
+
 serve:
 	althttpd -root $(PWD)/cgi-bin -port 3000
 .PHONY: serve
