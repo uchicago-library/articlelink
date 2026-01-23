@@ -6,6 +6,9 @@ DISPLAY = short
 DLDCREPO = /data/web/dldc/opam
 DUNE = opam exec -- dune $1 --display $(DISPLAY)
 CGI_BIN = /data/local/apache/cgi-bin
+RESTFUL_TEST_HOST = restful02.lib.uchicago.edu
+BSD_BUILD_HOST = ocaml.lib.uchicago.edu
+BSD_BUILD_PATH = /usr/app/lib/opam-matt/git-projects
 
 build all:
 	$(call DUNE, build @@default)
@@ -60,8 +63,12 @@ cgi:
 bsd-restful02-deploy:
 	git pull origin master
 	$(call DUNE, build)
-	rsync -aizvP _build/default/app/$(PNAME).exe restful02.lib.uchicago.edu:$(CGI_BIN)/$(PNAME)
+	rsync -aizvP _build/default/app/$(PNAME).exe $(RESTFUL_TEST_HOST):$(CGI_BIN)/$(PNAME)
 .PHONY: bsd-restful02-deploy
+
+restful02-deploy:
+	ssh $(BSD_BUILD_HOST) "make -C $(BSD_BUILD_PATH)/$(PNAME) bsd-restful02-deploy"
+.PHONY: restful02-deploy
 
 serve:
 	althttpd -root $(PWD)/cgi-bin -port 3000
