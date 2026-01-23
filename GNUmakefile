@@ -33,7 +33,7 @@ deps:
 .PHONY: deps
 
 dune-install: build
-	opam exec -- dune install
+	opam exec -- $(call DUNE, install)
 .PHONY: install
 
 dev-install: dune-install
