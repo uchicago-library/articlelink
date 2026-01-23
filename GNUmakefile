@@ -23,6 +23,7 @@ clean:
 .PHONY: clean
 
 sandbox:
+	opam switch remove $(PWD) --yes
 	opam switch create . --deps-only --repos dldc=https://dldc.lib.uchicago.edu/opam,default --yes
 PHONY: sandbox
 
@@ -65,6 +66,9 @@ bsd-restful02-deploy:
 	opam exec -- dune build
 	rsync -aizvP _build/default/app/$(PNAME).exe $(RESTFUL_TEST_HOST):$(CGI_BIN)/$(PNAME)
 .PHONY: bsd-restful02-deploy
+
+bsd-restful02-rebuild: sandbox bsd-restful02-deploy
+.PHONY: bsd-restful-02-rebuild
 
 restful02-deploy:
 	ssh $(BSD_BUILD_HOST) "make -C $(BSD_BUILD_PATH)/$(PNAME) bsd-restful02-deploy"
