@@ -5,6 +5,7 @@ PNAME = articlelink
 DISPLAY = short
 DLDCREPO = /data/web/dldc/opam
 DUNE = opam exec -- dune $1 --display $(DISPLAY)
+CGI_BIN = /data/local/apache/cgi-bin
 
 build all:
 	$(call DUNE, build @@default)
@@ -55,6 +56,12 @@ cgi:
 	$(call DUNE, build)
 	install -m 555 $(PWD)/_build/default/app/$(PNAME).exe $(PWD)/cgi-bin/$(PNAME)
 .PHONY: cgi
+
+bsd-restful02-deploy:
+	git pull origin master
+	$(call DUNE, build)
+	rsync -aizvP _build/default/app/$(PNAME).exe restful02.lib.uchicago.edu:$(CGI_BIN)/$(PNAME)
+.PHONY: bsd-restful02-deploy
 
 serve:
 	althttpd -root $(PWD)/cgi-bin -port 3000
