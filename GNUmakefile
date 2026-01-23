@@ -62,7 +62,7 @@ cgi:
 
 bsd-restful02-deploy:
 	git pull origin master
-	$(call DUNE, build)
+	opam exec -- dune build
 	rsync -aizvP _build/default/app/$(PNAME).exe $(RESTFUL_TEST_HOST):$(CGI_BIN)/$(PNAME)
 .PHONY: bsd-restful02-deploy
 
