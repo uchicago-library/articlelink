@@ -33,8 +33,7 @@ deps:
 .PHONY: deps
 
 dune-install: build
-	eval $$(opam env)
-	$(call DUNE, install)
+	opam exec -- dune install
 .PHONY: install
 
 dev-install: dune-install
@@ -77,6 +76,10 @@ restful02-deploy:
 restful02-rebuild:
 	ssh $(BSD_BUILD_HOST) "make -C $(BSD_BUILD_PATH)/$(PNAME) bsd-restful02-rebuild"
 .PHONY: restful02-rebuild
+
+restful02-remove:
+	ssh $(RESTFUL_TEST_HOST) "rm $(CGI_BIN)/$(PNAME)"
+.PHONY: restful02-remove
 
 serve:
 	althttpd -root $(PWD)/cgi-bin -port 3000
