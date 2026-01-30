@@ -7,6 +7,7 @@ DLDCREPO = /data/web/dldc/opam
 DUNE = opam exec -- dune $1 --display $(DISPLAY)
 CGI_BIN = /data/local/apache/cgi-bin
 RESTFUL_TEST_HOST = restful02.lib.uchicago.edu
+RESTFUL_HOST = restful.lib.uchicago.edu
 BSD_BUILD_HOST = ocaml.lib.uchicago.edu
 BSD_BUILD_PATH = /usr/app/lib/opam-matt/git-projects
 
@@ -67,7 +68,7 @@ bsd-restful02-deploy:
 .PHONY: bsd-restful02-deploy
 
 bsd-restful02-rebuild: sandbox bsd-restful02-deploy
-.PHONY: bsd-restful-02-rebuild
+.PHONY: bsd-restful02-rebuild
 
 restful02-deploy:
 	ssh $(BSD_BUILD_HOST) "make -C $(BSD_BUILD_PATH)/$(PNAME) bsd-restful02-deploy"
@@ -80,6 +81,27 @@ restful02-rebuild:
 restful02-remove:
 	ssh $(RESTFUL_TEST_HOST) "rm $(CGI_BIN)/$(PNAME)"
 .PHONY: restful02-remove
+
+bsd-restful-deploy:
+	git pull origin master
+	opam exec -- dune build
+	rsync -aizvP _build/default/app/$(PNAME).exe $(RESTFUL_HOST):$(CGI_BIN)/$(PNAME)
+.PHONY: bsd-restful-deploy
+
+bsd-restful-rebuild: sandbox bsd-restful-deploy
+.PHONY: bsd-restful-rebuild
+
+restful-deploy:
+	ssh $(BSD_BUILD_HOST) "make -C $(BSD_BUILD_PATH)/$(PNAME) bsd-restful-deploy"
+.PHONY: restful-deploy
+
+restful-rebuild:
+	ssh $(BSD_BUILD_HOST) "make -C $(BSD_BUILD_PATH)/$(PNAME) bsd-restful-rebuild"
+.PHONY: restful-rebuild
+
+restful-remove:
+	ssh $(RESTFUL_HOST) "rm $(CGI_BIN)/$(PNAME)"
+.PHONY: restful-remove
 
 serve:
 	althttpd -root $(PWD)/cgi-bin -port 3000
