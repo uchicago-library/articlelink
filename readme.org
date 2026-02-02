@@ -1,0 +1,79 @@
+#+TITLE: articlelink
+#+AUTHOR: Matt Teichman
+#+DESCRIPTION: REST API for retrieving journal article link from SFX
+#+OPTIONS: toc:nil, num:nil
+
+=articlelink= is a REST API for retrieving links to journal articles
+via SFX.  The SFX API already provides this functionality, but it
+returns a sloppy XML response containing lots of irrelevant data.
+=articlelink= cleans the response from the SFX API up and puts it into
+a human-readable JSON document.  It is intended for use on the backend
+by UChicago Library web applications, though it would also be possible
+for an end user to run it.
+
+* Design
+
+Here are a few highlights:
+
++ for convenience, if =articlelink= is given a command line argument,
+  it percent escapes the command line argument for copying/pasting
+  into a query string
++ otherwise, =articlelink= runs as a CGI, under Apache in our
+  production environment
++ it listens for GET requests only
+
+* Quickstart
+
+** Build
+
+To build, install =opam= through your OS package manager.
+
+#+begin_example
+  make sandbox
+#+end_example
+
+** Run
+
+#+begin_example
+  $ cd /path/to/source/repo
+  $ dune exec articlelink -- "https://sfx.lib.uchicago.edu/sfx_local?url_ver=Z39.88-2004&rft_val_fmt=info:ofi/fmt:kev:mtx:journal&genre=article&sid=ProQ:ProQ%3Apq1busgeneral&atitle=Asymmetric+Information+and+Portfolio+Performance+Measurement&title=Journal+of+Financial+Economics&issn=0304405X&date=1979-12-01&volume=7&issue=4&spage=381&au=Cornell%2C+Bradford&isbn=&jtitle=Journal+of+Financial+Economics&btitle=&rft_id=info:eric/00115427&rft_id=info:doi/"
+  openurl=https://sfx.lib.uchicago.edu/sfx_local?url_ver=Z39.88-2004%26rft_val_fmt=info:ofi/fmt:kev:mtx:journal%26genre=article%26sid=ProQ:ProQ%253Apq1busgeneral%26atitle=Asymmetric%2BInformation%2Band%2BPortfolio%2BPerformance%2BMeasurement%26title=Journal%2Bof%2BFinancial%2BEconomics%26issn=0304405X%26date=1979-12-01%26volume=7%26issue=4%26spage=381%26au=Cornell%252C%2BBradford%26isbn=%26jtitle=Journal%2Bof%2BFinancial%2BEconomics%26btitle=%26rft_id=info:eric/00115427%26rft_id=info:doi/
+  $ env QUERY_STRING="openurl=https://sfx.lib.uchicago.edu/sfx_local?url_ver=Z39.88-2004%26rft_val_fmt=info:ofi/fmt:kev:mtx:journal%26genre=article%26sid=ProQ:ProQ%253Apq1busgeneral%26atitle=Asymmetric%2BInformation%2Band%2BPortfolio%2BPerformance%2BMeasurement%26title=Journal%2Bof%2BFinancial%2BEconomics%26issn=0304405X%26date=1979-12-01%26volume=7%26issue=4%26spage=381%26au=Cornell%252C%2BBradford%26isbn=%26jtitle=Journal%2Bof%2BFinancial%2BEconomics%26btitle=%26rft_id=info:eric/00115427%26rft_id=info:doi/" dune exec articlelink
+  Status: 200
+  Content-Type: application/json
+
+  { "hits":
+      [ { "provider": "Elsevier ScienceDirect Journals",
+          "link":
+            "https://proxy-redirector.lib.uchicago.edu/login?url=https%3A%2F%2Fwww.sciencedirect.com%2Fscience%3F_ob%3DGatewayURL%26_origin%3DSFX%26_method%3DcitationSearch%26_volkey%3D0304405X%25237%2523381%25234%26_version%3D1%26md5%3D06cd0c49a9e04c7bd4c8bfc759d4f0a3" },
+        { "provider": "Elsevier SD Backfile Economics",
+          "link":
+            "https://proxy-redirector.lib.uchicago.edu/login?url=https%3A%2F%2Fwww.sciencedirect.com%2Fscience%3F_ob%3DGatewayURL%26_origin%3DSFX%26_method%3DcitationSearch%26_volkey%3D0304405X%25237%2523381%25234%26_version%3D1%26md5%3D06cd0c49a9e04c7bd4c8bfc759d4f0a3" } ] }
+#+end_example
+
+** Curl
+
+To test with =curl=, first install =althttpd=.
+
+#+begin_example
+  $ cd /path/to/source/repo
+  $ dune exec articlelink -- "https://sfx.lib.uchicago.edu/sfx_local?url_ver=Z39.88-2004&rft_val_fmt=info:ofi/fmt:kev:mtx:journal&genre=article&sid=ProQ:ProQ%3Apq1busgeneral&atitle=Asymmetric+Information+and+Portfolio+Performance+Measurement&title=Journal+of+Financial+Economics&issn=0304405X&date=1979-12-01&volume=7&issue=4&spage=381&au=Cornell%2C+Bradford&isbn=&jtitle=Journal+of+Financial+Economics&btitle=&rft_id=info:eric/00115427&rft_id=info:doi/"
+  $ make serve
+  $ curl "http://localhost:3000/articlelink?openurl=https://sfx.lib.uchicago.edu/sfx_local?url_ver=Z39.88-2004%26rft_val_fmt=info:ofi/fmt:kev:mtx:journal%26genre=article%26sid=ProQ:ProQ%253Apq1busgeneral%26atitle=Asymmetric%2BInformation%2Band%2BPortfolio%2BPerformance%2BMeasurement%26title=Journal%2Bof%2BFinancial%2BEconomics%26issn=0304405X%26date=1979-12-01%26volume=7%26issue=4%26spage=381%26au=Cornell%252C%2BBradford%26isbn=%26jtitle=Journal%2Bof%2BFinancial%2BEconomics%26btitle=%26rft_id=info:eric/00115427%26rft_id=info:doi/"
+#+end_example
+
+* Interface
+
+=articlelink= has one mandatory query string parameter:
+
++ =openurl=: a full SFX openurl string (must be correctly percent
+  escaped)
+
+It also accepts the following two optional query string parameters:
+
++ =callback=: a callback input, for front-ends that expect a [[https://en.wikipedia.org/wiki/JSONP][JSONP]]
+  rather than JSON response
+
++ =xml=: a boolean field; if =xml= is set to =true=, then
+  =articlelink= returns the raw XML response from SFX (for debugging
+  only)

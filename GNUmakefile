@@ -106,7 +106,3 @@ restful-remove:
 serve:
 	althttpd -root $(PWD)/cgi-bin -port 3000
 .PHONY: serve
-
-# Local Variables:
-# mode: makefile-gmake
-# End:
