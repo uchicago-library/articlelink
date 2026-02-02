@@ -3,13 +3,13 @@
 #+DESCRIPTION: REST API for retrieving journal article link from SFX
 #+OPTIONS: toc:nil, num:nil
 
-=articlelink= is a REST API for retrieving links to journal articles
-via SFX.  The SFX API already provides this functionality, but it
-returns a sloppy XML response containing lots of irrelevant data.
-=articlelink= cleans the response from the SFX API up and puts it into
-a human-readable JSON document.  It is intended for use on the backend
-by UChicago Library web applications, though it would also be possible
-for an end user to run it.
+=articlelink= is a web service for retrieving links to journal
+articles via SFX.  The SFX API already provides this functionality,
+but it returns a hard-to-read XML response containing lots of
+irrelevant data.  =articlelink= cleans the response from the SFX API
+up and puts it into a human-readable JSON document.  It is intended
+for use on the backend by UChicago Library web applications, though it
+would also be possible for an end user to run it.
 
 * Design
 
