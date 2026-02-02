@@ -9,7 +9,7 @@ but it returns a hard-to-read XML response containing lots of
 irrelevant data.  =articlelink= cleans the response from the SFX API
 up and puts it into a human-readable JSON document.  It is intended
 for use on the backend by UChicago Library web applications, though it
-would also be possible for an end user to run it.
+is technically possible for an end user to run it as well.
 
 * Design
 
