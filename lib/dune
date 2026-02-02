@@ -1,5 +1,6 @@
 (library
  (name lib)
+ (public_name articlelink)
  (libraries prelude etude ezxmlm httpr_cohttp data-encoding))
 
 (toplevel
