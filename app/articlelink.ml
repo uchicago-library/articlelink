@@ -12,8 +12,7 @@ let main () =
   match Prelude.argv with
   | [] -> cgi ()
   | openurl :: [] ->
-     Lib.Cli.percent_encode openurl
-     |> print_endline
+    Lib.Cli.percent_encode openurl |> print_endline
   | _ -> cgi ()
 
 let () = main ()

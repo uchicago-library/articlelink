@@ -89,3 +89,44 @@ It also accepts the following two optional query string parameters:
 + =xml=: a boolean field; if =xml= is set to =true=, then
   =articlelink= returns the raw XML response from SFX (for debugging
   only)
+
+* Output Format
+
++ normally, =articlelink= returns a JSON response with the following structure:
+
+  #+begin_example
+    HTTP/1.1 200
+    Content-Type: application/json
+    Content-length: 705
+
+    { "hits":
+        [ { "provider": "provider name",
+            "link":
+              "https://link.to/the/article" },
+          { "provider": "another provider name",
+            "link":
+              "https://link.to/another/article" } ] }
+  #+end_example
+
++ if there is an error, it returns a JSON response with this structure:
+
+  #+begin_example
+    HTTP/1.1 400
+    Content-Type: application/json
+    Content-length: 50
+
+    { "error": "error message here" }
+  #+end_example
+
++ if the =xml= query string parameter is set to =true=, it returns an
+  XML response:
+
+  #+begin_example
+    HTTP/1.1 200
+    Content-Type: application/xml
+    Content-length: 21656
+
+    <?xml version="1.0" encoding="utf-8"?>
+    <big_disgusting_xml_blob>
+    </big_disgusting_xml_blbo>
+  #+end_example
