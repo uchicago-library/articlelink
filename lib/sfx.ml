@@ -30,19 +30,12 @@ let get_link xml_string =
   |> List.filter has_full_link
   |> List.map shrink
 
-let get_from_filepath filepath =
-  let sfx_output = Prelude.readfile filepath
-  in get_link sfx_output
-
 let get_xml_string uri_string =
   let get_body r = r.Httpr_cohttp.Response.body
   in uri_string
      |> Uri.of_string
      |> Httpr_cohttp.get
      |> Result.map get_body
-
-let get_xml uri_string =
-  Result.map Ezxmlm.from_string (get_xml_string uri_string)
 
 let sfx_host = "sfx.lib.uchicago.edu"
 let sfx_path = "sfx_local"
