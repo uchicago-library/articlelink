@@ -5,5 +5,9 @@ val hits_to_string : (string * string) list -> string
     [articlelink] outputs.  *)
 
 val error_json : string -> string
-(** [error_json] takes in an error message and outputs an [Ezjsonm.t]
+(** [error_json] takes in an error message and outputs an [Data_encoding.json]
     JSON object containing that error message.  *)
+
+val print : ?truncate:int -> Data_encoding.json -> unit
+(** [print] pretty prints a value of type [Data_encoding.json].  For
+     debugging in the REPL. *)
