@@ -15,7 +15,9 @@ let retrieve_unique field_name target =
 
 let get_info target =
   ( retrieve_unique "service_type" target,
-    retrieve_unique "target_public_name" target,
+    retrieve_unique "target_name" target,
+    (* uncomment this when done debugging *)
+    (* retrieve_unique "target_public_name" target, *)
     retrieve_unique "target_url" target )
 
 let get_link xml_string =
