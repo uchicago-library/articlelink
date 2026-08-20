@@ -24,7 +24,7 @@ clean:
 .PHONY: clean
 
 sandbox:
-	opam switch remove $(PWD) --yes
+	opam switch remove $(PWD) --yes || true
 	opam switch create . --deps-only --repos dldc=https://dldc.lib.uchicago.edu/opam,default --yes
 PHONY: sandbox
 
