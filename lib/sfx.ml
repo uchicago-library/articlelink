@@ -15,9 +15,7 @@ let retrieve_unique field_name target =
 
 let get_info target =
   ( retrieve_unique "service_type" target,
-    retrieve_unique "target_name" target,
-    (* uncomment this when done debugging *)
-    (* retrieve_unique "target_public_name" target, *)
+    retrieve_unique "target_public_name" target,
     retrieve_unique "target_url" target )
 
 let get_link xml_string =
@@ -31,7 +29,6 @@ let get_link xml_string =
   |> List.map get_info
   |> List.filter has_full_link
   |> List.map shrink
-  |> Ranking.sort_hits
 
 let get_xml_string uri_string =
   let get_body r = r.Httpr_cohttp.Response.body in
@@ -54,7 +51,6 @@ let findit_to_api ?(host = sfx_host) ?(path = sfx_path)
   |> !Uri.add_query_param api_qs_param
   |> !Uri.with_host (Some host)
   |> !Uri.with_path path
-  |> !Uri.with_scheme (Some "https")
   |> Uri.to_string
 
 let to_sfx_curl findit_openurl =

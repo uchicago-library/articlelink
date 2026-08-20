@@ -23,7 +23,6 @@ depends: [
   "ezxmlm"
   "httpr_cohttp"
   "data-encoding"
-  "csv"
   "odoc" {with-doc}
 ]
 build: [
