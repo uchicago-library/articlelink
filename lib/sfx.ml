@@ -51,6 +51,7 @@ let findit_to_api ?(host = sfx_host) ?(path = sfx_path)
   |> !Uri.add_query_param api_qs_param
   |> !Uri.with_host (Some host)
   |> !Uri.with_path path
+  |> !Uri.with_scheme (Some "https")
   |> Uri.to_string
 
 let to_sfx_curl findit_openurl =
